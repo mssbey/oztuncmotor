@@ -19,6 +19,8 @@ const nextConfig: NextConfig = {
     formats: ["image/avif", "image/webp"],
     qualities: [75, 85],
     remotePatterns,
+    // Statik önizleme (scripts/static-preview.ts) için görseller sunucusuz, olduğu gibi sunulur.
+    unoptimized: process.env.STATIC_PREVIEW === "1",
   },
   serverExternalPackages: ["sharp"],
   async headers() {
