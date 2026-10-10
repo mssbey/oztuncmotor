@@ -1,0 +1,382 @@
+generator client {
+  provider     = "prisma-client"
+  output       = "../src/generated/prisma"
+  moduleFormat = "esm"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─── Yönetim kullanıcıları ve oturumlar ──────────────────────────────
+
+enum UserRole {
+  ADMIN // tüm yetkiler, kullanıcı yönetimi
+  STAFF // randevular, talepler ve müşteri bilgileri + içerik
+  EDITOR // yalnızca içerik (katalog, sayfalar); müşteri verisi göremez
+}
+
+model AdminUser {
+  id           String    @id @default(cuid())
+  email        String    @unique
+  name         String
+  passwordHash String
+  role         UserRole  @default(STAFF)
+  active       Boolean   @default(true)
+  lastLoginAt  DateTime?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  sessions Session[]
+  notes    AppointmentNote[]
+}
+
+model Session {
+  id        String    @id // SHA-256(token) — ham token yalnızca çerezde
+  userId    String
+  user      AdminUser @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+  createdAt DateTime  @default(now())
+
+  @@index([userId])
+}
+
+// ─── Medya ───────────────────────────────────────────────────────────
+
+model Media {
+  id        String   @id @default(cuid())
+  key       String   @unique // depolama anahtarı
+  url       String // herkese açık URL
+  mime      String
+  size      Int
+  width     Int
+  height    Int
+  alt       String   @default("")
+  isDemo    Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  motorcycleImages MotorcycleImage[]
+  categories       Category[]
+}
+
+// ─── Katalog ─────────────────────────────────────────────────────────
+
+model Brand {
+  id                String   @id @default(cuid())
+  name              String   @unique
+  slug              String   @unique
+  sortOrder         Int      @default(0)
+  // Yalnızca işletme tarafından doğrulanınca işaretlenir; sitede ancak o zaman gösterilir.
+  authorizedDealer  Boolean  @default(false)
+  authorizedService Boolean  @default(false)
+  isDemo            Boolean  @default(false)
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  motorcycles  Motorcycle[]
+  appointments Appointment[]
+}
+
+model Category {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  slug        String   @unique
+  description String   @default("")
+  imageId     String?
+  image       Media?   @relation(fields: [imageId], references: [id], onDelete: SetNull)
+  sortOrder   Int      @default(0)
+  published   Boolean  @default(true)
+  isDemo      Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  motorcycles Motorcycle[]
+}
+
+enum StockStatus {
+  IN_STOCK
+  ON_ORDER
+  SOLD_OUT
+}
+
+enum Powertrain {
+  ICE
+  ELECTRIC
+}
+
+model Motorcycle {
+  id          String      @id @default(cuid())
+  slug        String      @unique
+  brandId     String
+  brand       Brand       @relation(fields: [brandId], references: [id], onDelete: Restrict)
+  categoryId  String?
+  category    Category?   @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  model       String
+  modelYear   Int?
+  powertrain  Powertrain  @default(ICE)
+  priceTL     Int? // KDV dahil liste fiyatı, TL (tam sayı)
+  stockStatus StockStatus @default(ON_ORDER)
+  summary     String      @default("")
+  description String      @default("")
+  featured    Boolean     @default(false)
+  published   Boolean     @default(false)
+  isDemo      Boolean     @default(false)
+  sortOrder   Int         @default(0)
+
+  // Teknik özellikler — yalnızca girilenler gösterilir
+  engineCc        Int?
+  powerHp         Decimal? @db.Decimal(6, 1)
+  torqueNm        Decimal? @db.Decimal(6, 1)
+  motorPowerKw    Decimal? @db.Decimal(6, 1) // elektrikli: nominal/azami güç
+  batteryKwh      Decimal? @db.Decimal(6, 2)
+  rangeKm         Int?
+  chargeTimeHours Decimal? @db.Decimal(4, 1)
+  topSpeedKmh     Int?
+  weightKg        Int?
+  seatHeightMm    Int?
+  fuelCapacityL   Decimal? @db.Decimal(4, 1)
+  transmission    String?
+  cooling         String?
+  brakes          String?
+  licenseClass    String? // A1, A2, A, B...
+  extraSpecs      Json     @default("[]") // [{label, value}]
+
+  seoTitle       String?
+  seoDescription String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  images    MotorcycleImage[]
+  colors    MotorcycleColor[]
+  inquiries Inquiry[]
+
+  @@index([published, featured])
+  @@index([brandId])
+  @@index([categoryId])
+}
+
+model MotorcycleImage {
+  id           String     @id @default(cuid())
+  motorcycleId String
+  motorcycle   Motorcycle @relation(fields: [motorcycleId], references: [id], onDelete: Cascade)
+  mediaId      String
+  media        Media      @relation(fields: [mediaId], references: [id], onDelete: Cascade)
+  alt          String     @default("")
+  sortOrder    Int        @default(0)
+
+  @@index([motorcycleId, sortOrder])
+}
+
+model MotorcycleColor {
+  id           String     @id @default(cuid())
+  motorcycleId String
+  motorcycle   Motorcycle @relation(fields: [motorcycleId], references: [id], onDelete: Cascade)
+  name         String
+  hex          String // #RRGGBB
+  sortOrder    Int        @default(0)
+}
+
+// ─── Servis ──────────────────────────────────────────────────────────
+
+model ServiceItem {
+  id          String   @id @default(cuid())
+  title       String
+  slug        String   @unique
+  description String   @default("")
+  published   Boolean  @default(false)
+  bookable    Boolean  @default(true) // randevu formunda seçilebilir mi
+  sortOrder   Int      @default(0)
+  isDemo      Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  appointments Appointment[]
+}
+
+model WorkingDay {
+  weekday    Int     @id // 1 = Pazartesi … 7 = Pazar (ISO)
+  isOpen     Boolean @default(false)
+  openTime   String  @default("09:00")
+  closeTime  String  @default("18:00")
+  breakStart String?
+  breakEnd   String?
+}
+
+model Holiday {
+  id   String @id @default(cuid())
+  date String @unique // YYYY-MM-DD (Europe/Istanbul)
+  name String
+}
+
+model AppointmentSettings {
+  id              Int     @id @default(1)
+  enabled         Boolean @default(false) // çalışma saatleri doğrulanana kadar kapalı
+  slotMinutes     Int     @default(60)
+  slotCapacity    Int     @default(2)
+  minLeadMinutes  Int     @default(120) // en erken randevu için asgari süre
+  maxDaysAhead    Int     @default(30)
+  showHoursPublic Boolean @default(false) // çalışma saatlerini sitede göster
+}
+
+enum AppointmentStatus {
+  PENDING
+  CONFIRMED
+  COMPLETED
+  CANCELLED
+}
+
+model Appointment {
+  id              String            @id @default(cuid())
+  reference       String            @unique
+  status          AppointmentStatus @default(PENDING)
+  brandId         String?
+  brand           Brand?            @relation(fields: [brandId], references: [id], onDelete: SetNull)
+  brandName       String // seçilen veya "Diğer" ile yazılan marka (anlık kopya)
+  model           String
+  modelYear       Int?
+  mileageKm       Int?
+  plate           String?
+  serviceItemId   String?
+  serviceItem     ServiceItem?      @relation(fields: [serviceItemId], references: [id], onDelete: SetNull)
+  serviceName     String
+  description     String            @default("")
+  slotStart       DateTime // UTC
+  slotDate        String // YYYY-MM-DD (Europe/Istanbul)
+  slotTime        String // HH:mm (Europe/Istanbul)
+  fullName        String
+  phone           String
+  email           String?
+  kvkkAcceptedAt  DateTime
+  marketingConsent Boolean          @default(false)
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+
+  notes AppointmentNote[]
+
+  @@index([slotStart, status])
+  @@index([status, createdAt])
+  @@index([slotDate])
+}
+
+model AppointmentNote {
+  id            String      @id @default(cuid())
+  appointmentId String
+  appointment   Appointment @relation(fields: [appointmentId], references: [id], onDelete: Cascade)
+  authorId      String?
+  author        AdminUser?  @relation(fields: [authorId], references: [id], onDelete: SetNull)
+  body          String
+  createdAt     DateTime    @default(now())
+
+  @@index([appointmentId])
+}
+
+// ─── Talepler ────────────────────────────────────────────────────────
+
+enum InquiryStatus {
+  NEW
+  CONTACTED
+  CLOSED
+}
+
+model Inquiry {
+  id               String        @id @default(cuid())
+  reference        String        @unique
+  motorcycleId     String?
+  motorcycle       Motorcycle?   @relation(fields: [motorcycleId], references: [id], onDelete: SetNull)
+  motorcycleLabel  String? // talep anındaki marka + model
+  fullName         String
+  phone            String
+  email            String?
+  message          String        @default("")
+  status           InquiryStatus @default(NEW)
+  internalNote     String        @default("")
+  kvkkAcceptedAt   DateTime
+  marketingConsent Boolean       @default(false)
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+
+  @@index([status, createdAt])
+}
+
+// ─── Bildirim kuyruğu (outbox) ──────────────────────────────────────
+
+enum NotificationStatus {
+  PENDING
+  SENT
+  FAILED // azami deneme sayısına ulaşıldı
+}
+
+model Notification {
+  id            String             @id @default(cuid())
+  kind          String // appointment.created, inquiry.created
+  channel       String             @default("email")
+  recipient     String
+  subject       String
+  body          String
+  status        NotificationStatus @default(PENDING)
+  attempts      Int                @default(0)
+  lastError     String?
+  nextAttemptAt DateTime           @default(now())
+  sentAt        DateTime?
+  createdAt     DateTime           @default(now())
+
+  @@index([status, nextAttemptAt])
+}
+
+// ─── Hız sınırı ─────────────────────────────────────────────────────
+
+model RateLimit {
+  key       String   @id
+  count     Int
+  resetAt   DateTime
+}
+
+// ─── Site ayarları ve içerik ───────────────────────────────────────
+
+model SiteSettings {
+  id              Int     @id @default(1)
+  businessName    String  @default("Öztunç Motor")
+  addressLine     String  @default("Cedidiye Mahallesi, Mimar Sinan Caddesi No:75")
+  postalCode      String  @default("81020")
+  district        String  @default("Merkez")
+  city            String  @default("Düzce")
+  phone           String? // E.164 dışı serbest yazım kabul edilir, bağlantı için normalize edilir
+  whatsapp        String?
+  email           String?
+  notifyEmail     String? // randevu/talep bildirimlerinin gideceği adres
+  instagramUrl    String?
+  facebookUrl     String?
+  mapEmbedEnabled Boolean @default(true)
+  latitude        Decimal? @db.Decimal(9, 6)
+  longitude       Decimal? @db.Decimal(9, 6)
+
+  logoId         String?
+  heroImageId    String?
+  serviceImageId String?
+  aboutImage1Id  String?
+  aboutImage2Id  String?
+
+  heroTitle       String @default("Yolun başı.\nÖztunç Motor.")
+  heroText        String @default("Düzce’de motosiklet satış ve servis hizmetlerini tek noktada keşfedin.")
+  heroLocation    String @default("Cedidiye, Düzce")
+  serviceTitle    String @default("Motoruna iyi bak.\nYola güvenle devam et.")
+  serviceText     String @default("")
+  aboutTitle      String @default("")
+  aboutText       String @default("")
+
+  updatedAt DateTime @updatedAt
+}
+
+model Page {
+  key       String   @id // kvkk, gizlilik, cerez
+  title     String
+  body      String // basit biçimlendirilmiş metin (## başlık, paragraflar, - liste)
+  updatedAt DateTime @updatedAt
+}
+
+model SeoEntry {
+  key         String  @id // home, motorcycles, service, appointment, about, contact, compare
+  title       String?
+  description String?
+}
