@@ -70,7 +70,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-marka-honda.html"
+      "destination": "/_v/motosikletler-marka-honda"
     },
     {
       "source": "/motosikletler",
@@ -115,7 +115,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-marka-yamaha.html"
+      "destination": "/_v/motosikletler-marka-yamaha"
     },
     {
       "source": "/motosikletler",
@@ -160,7 +160,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-marka-kawasaki.html"
+      "destination": "/_v/motosikletler-marka-kawasaki"
     },
     {
       "source": "/motosikletler",
@@ -205,7 +205,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-marka-ktm.html"
+      "destination": "/_v/motosikletler-marka-ktm"
     },
     {
       "source": "/motosikletler",
@@ -250,7 +250,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-marka-bmw-motorrad.html"
+      "destination": "/_v/motosikletler-marka-bmw-motorrad"
     },
     {
       "source": "/motosikletler",
@@ -295,7 +295,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-marka-vespa.html"
+      "destination": "/_v/motosikletler-marka-vespa"
     },
     {
       "source": "/motosikletler",
@@ -340,7 +340,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-marka-super-soco.html"
+      "destination": "/_v/motosikletler-marka-super-soco"
     },
     {
       "source": "/motosikletler",
@@ -385,7 +385,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-kategori-scooter.html"
+      "destination": "/_v/motosikletler-kategori-scooter"
     },
     {
       "source": "/motosikletler",
@@ -430,7 +430,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-kategori-sehir.html"
+      "destination": "/_v/motosikletler-kategori-sehir"
     },
     {
       "source": "/motosikletler",
@@ -475,7 +475,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-kategori-touring.html"
+      "destination": "/_v/motosikletler-kategori-touring"
     },
     {
       "source": "/motosikletler",
@@ -520,7 +520,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-kategori-elektrikli.html"
+      "destination": "/_v/motosikletler-kategori-elektrikli"
     },
     {
       "source": "/motosikletler",
@@ -565,7 +565,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-tip-benzinli.html"
+      "destination": "/_v/motosikletler-tip-benzinli"
     },
     {
       "source": "/motosikletler",
@@ -610,7 +610,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-tip-elektrikli.html"
+      "destination": "/_v/motosikletler-tip-elektrikli"
     },
     {
       "source": "/motosikletler",
@@ -655,7 +655,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-hacim-0-125.html"
+      "destination": "/_v/motosikletler-hacim-0-125"
     },
     {
       "source": "/motosikletler",
@@ -700,7 +700,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-hacim-126-250.html"
+      "destination": "/_v/motosikletler-hacim-126-250"
     },
     {
       "source": "/motosikletler",
@@ -745,7 +745,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-hacim-251-500.html"
+      "destination": "/_v/motosikletler-hacim-251-500"
     },
     {
       "source": "/motosikletler",
@@ -790,7 +790,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-hacim-501-900.html"
+      "destination": "/_v/motosikletler-hacim-501-900"
     },
     {
       "source": "/motosikletler",
@@ -835,7 +835,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-hacim-901-.html"
+      "destination": "/_v/motosikletler-hacim-901-"
     },
     {
       "source": "/motosikletler",
@@ -880,7 +880,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-stok-stokta.html"
+      "destination": "/_v/motosikletler-stok-stokta"
     },
     {
       "source": "/motosikletler",
@@ -925,7 +925,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-stok-siparis.html"
+      "destination": "/_v/motosikletler-stok-siparis"
     },
     {
       "source": "/motosikletler",
@@ -970,7 +970,7 @@
           "key": "sira"
         }
       ],
-      "destination": "/_v/motosikletler-stok-tukendi.html"
+      "destination": "/_v/motosikletler-stok-tukendi"
     },
     {
       "source": "/motosikletler",
@@ -1015,7 +1015,7 @@
           "key": "max"
         }
       ],
-      "destination": "/_v/motosikletler-sira-fiyat-artan.html"
+      "destination": "/_v/motosikletler-sira-fiyat-artan"
     },
     {
       "source": "/motosikletler",
@@ -1060,7 +1060,7 @@
           "key": "max"
         }
       ],
-      "destination": "/_v/motosikletler-sira-fiyat-azalan.html"
+      "destination": "/_v/motosikletler-sira-fiyat-azalan"
     },
     {
       "source": "/motosikletler",
@@ -1105,7 +1105,7 @@
           "key": "max"
         }
       ],
-      "destination": "/_v/motosikletler-sira-yeni.html"
+      "destination": "/_v/motosikletler-sira-yeni"
     },
     {
       "source": "/karsilastir",
@@ -1116,7 +1116,7 @@
           "value": "^honda-pcx-125$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-pcx-125.html"
+      "destination": "/_v/karsilastir-honda-pcx-125"
     },
     {
       "source": "/karsilastir",
@@ -1127,7 +1127,7 @@
           "value": "^yamaha-nmax-155$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155.html"
+      "destination": "/_v/karsilastir-yamaha-nmax-155"
     },
     {
       "source": "/karsilastir",
@@ -1138,7 +1138,7 @@
           "value": "^yamaha-xmax-300$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300.html"
+      "destination": "/_v/karsilastir-yamaha-xmax-300"
     },
     {
       "source": "/karsilastir",
@@ -1149,7 +1149,7 @@
           "value": "^vespa-gts-300$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300.html"
+      "destination": "/_v/karsilastir-vespa-gts-300"
     },
     {
       "source": "/karsilastir",
@@ -1160,7 +1160,7 @@
           "value": "^honda-cb650r$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r.html"
+      "destination": "/_v/karsilastir-honda-cb650r"
     },
     {
       "source": "/karsilastir",
@@ -1171,7 +1171,7 @@
           "value": "^yamaha-mt-07$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-mt-07.html"
+      "destination": "/_v/karsilastir-yamaha-mt-07"
     },
     {
       "source": "/karsilastir",
@@ -1182,7 +1182,7 @@
           "value": "^kawasaki-z650$"
         }
       ],
-      "destination": "/_v/karsilastir-kawasaki-z650.html"
+      "destination": "/_v/karsilastir-kawasaki-z650"
     },
     {
       "source": "/karsilastir",
@@ -1193,7 +1193,7 @@
           "value": "^ktm-390-duke$"
         }
       ],
-      "destination": "/_v/karsilastir-ktm-390-duke.html"
+      "destination": "/_v/karsilastir-ktm-390-duke"
     },
     {
       "source": "/karsilastir",
@@ -1204,7 +1204,7 @@
           "value": "^honda-rebel-500$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-rebel-500.html"
+      "destination": "/_v/karsilastir-honda-rebel-500"
     },
     {
       "source": "/karsilastir",
@@ -1215,7 +1215,7 @@
           "value": "^yamaha-tenere-700$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-tenere-700.html"
+      "destination": "/_v/karsilastir-yamaha-tenere-700"
     },
     {
       "source": "/karsilastir",
@@ -1226,7 +1226,7 @@
           "value": "^honda-crf1100l-africa-twin$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin.html"
+      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin"
     },
     {
       "source": "/karsilastir",
@@ -1237,7 +1237,7 @@
           "value": "^bmw-r-1300-gs$"
         }
       ],
-      "destination": "/_v/karsilastir-bmw-r-1300-gs.html"
+      "destination": "/_v/karsilastir-bmw-r-1300-gs"
     },
     {
       "source": "/karsilastir",
@@ -1248,7 +1248,7 @@
           "value": "^honda-nc750x$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-nc750x.html"
+      "destination": "/_v/karsilastir-honda-nc750x"
     },
     {
       "source": "/karsilastir",
@@ -1259,7 +1259,7 @@
           "value": "^super-soco-cpx$"
         }
       ],
-      "destination": "/_v/karsilastir-super-soco-cpx.html"
+      "destination": "/_v/karsilastir-super-soco-cpx"
     },
     {
       "source": "/karsilastir",
@@ -1270,7 +1270,7 @@
           "value": "^(honda-pcx-125(,|%2C)yamaha-nmax-155|yamaha-nmax-155(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-pcx-125--yamaha-nmax-155.html"
+      "destination": "/_v/karsilastir-honda-pcx-125--yamaha-nmax-155"
     },
     {
       "source": "/karsilastir",
@@ -1281,7 +1281,7 @@
           "value": "^(honda-pcx-125(,|%2C)yamaha-xmax-300|yamaha-xmax-300(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-pcx-125--yamaha-xmax-300.html"
+      "destination": "/_v/karsilastir-honda-pcx-125--yamaha-xmax-300"
     },
     {
       "source": "/karsilastir",
@@ -1292,7 +1292,7 @@
           "value": "^(honda-pcx-125(,|%2C)vespa-gts-300|vespa-gts-300(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-pcx-125--vespa-gts-300.html"
+      "destination": "/_v/karsilastir-honda-pcx-125--vespa-gts-300"
     },
     {
       "source": "/karsilastir",
@@ -1303,7 +1303,7 @@
           "value": "^(honda-pcx-125(,|%2C)honda-cb650r|honda-cb650r(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-pcx-125--honda-cb650r.html"
+      "destination": "/_v/karsilastir-honda-pcx-125--honda-cb650r"
     },
     {
       "source": "/karsilastir",
@@ -1314,7 +1314,7 @@
           "value": "^(honda-pcx-125(,|%2C)yamaha-mt-07|yamaha-mt-07(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-pcx-125--yamaha-mt-07.html"
+      "destination": "/_v/karsilastir-honda-pcx-125--yamaha-mt-07"
     },
     {
       "source": "/karsilastir",
@@ -1325,7 +1325,7 @@
           "value": "^(honda-pcx-125(,|%2C)kawasaki-z650|kawasaki-z650(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-pcx-125--kawasaki-z650.html"
+      "destination": "/_v/karsilastir-honda-pcx-125--kawasaki-z650"
     },
     {
       "source": "/karsilastir",
@@ -1336,7 +1336,7 @@
           "value": "^(honda-pcx-125(,|%2C)ktm-390-duke|ktm-390-duke(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-pcx-125--ktm-390-duke.html"
+      "destination": "/_v/karsilastir-honda-pcx-125--ktm-390-duke"
     },
     {
       "source": "/karsilastir",
@@ -1347,7 +1347,7 @@
           "value": "^(honda-pcx-125(,|%2C)honda-rebel-500|honda-rebel-500(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-pcx-125--honda-rebel-500.html"
+      "destination": "/_v/karsilastir-honda-pcx-125--honda-rebel-500"
     },
     {
       "source": "/karsilastir",
@@ -1358,7 +1358,7 @@
           "value": "^(honda-pcx-125(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-pcx-125--yamaha-tenere-700.html"
+      "destination": "/_v/karsilastir-honda-pcx-125--yamaha-tenere-700"
     },
     {
       "source": "/karsilastir",
@@ -1369,7 +1369,7 @@
           "value": "^(honda-pcx-125(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-pcx-125--honda-crf1100l-africa-twin.html"
+      "destination": "/_v/karsilastir-honda-pcx-125--honda-crf1100l-africa-twin"
     },
     {
       "source": "/karsilastir",
@@ -1380,7 +1380,7 @@
           "value": "^(honda-pcx-125(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-pcx-125--bmw-r-1300-gs.html"
+      "destination": "/_v/karsilastir-honda-pcx-125--bmw-r-1300-gs"
     },
     {
       "source": "/karsilastir",
@@ -1391,7 +1391,7 @@
           "value": "^(honda-pcx-125(,|%2C)honda-nc750x|honda-nc750x(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-pcx-125--honda-nc750x.html"
+      "destination": "/_v/karsilastir-honda-pcx-125--honda-nc750x"
     },
     {
       "source": "/karsilastir",
@@ -1402,7 +1402,7 @@
           "value": "^(honda-pcx-125(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-pcx-125--super-soco-cpx.html"
+      "destination": "/_v/karsilastir-honda-pcx-125--super-soco-cpx"
     },
     {
       "source": "/karsilastir",
@@ -1413,7 +1413,7 @@
           "value": "^(yamaha-nmax-155(,|%2C)yamaha-xmax-300|yamaha-xmax-300(,|%2C)yamaha-nmax-155)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--yamaha-xmax-300.html"
+      "destination": "/_v/karsilastir-yamaha-nmax-155--yamaha-xmax-300"
     },
     {
       "source": "/karsilastir",
@@ -1424,7 +1424,7 @@
           "value": "^(yamaha-nmax-155(,|%2C)vespa-gts-300|vespa-gts-300(,|%2C)yamaha-nmax-155)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--vespa-gts-300.html"
+      "destination": "/_v/karsilastir-yamaha-nmax-155--vespa-gts-300"
     },
     {
       "source": "/karsilastir",
@@ -1435,7 +1435,7 @@
           "value": "^(yamaha-nmax-155(,|%2C)honda-cb650r|honda-cb650r(,|%2C)yamaha-nmax-155)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--honda-cb650r.html"
+      "destination": "/_v/karsilastir-yamaha-nmax-155--honda-cb650r"
     },
     {
       "source": "/karsilastir",
@@ -1446,7 +1446,7 @@
           "value": "^(yamaha-nmax-155(,|%2C)yamaha-mt-07|yamaha-mt-07(,|%2C)yamaha-nmax-155)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--yamaha-mt-07.html"
+      "destination": "/_v/karsilastir-yamaha-nmax-155--yamaha-mt-07"
     },
     {
       "source": "/karsilastir",
@@ -1457,7 +1457,7 @@
           "value": "^(yamaha-nmax-155(,|%2C)kawasaki-z650|kawasaki-z650(,|%2C)yamaha-nmax-155)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--kawasaki-z650.html"
+      "destination": "/_v/karsilastir-yamaha-nmax-155--kawasaki-z650"
     },
     {
       "source": "/karsilastir",
@@ -1468,7 +1468,7 @@
           "value": "^(yamaha-nmax-155(,|%2C)ktm-390-duke|ktm-390-duke(,|%2C)yamaha-nmax-155)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--ktm-390-duke.html"
+      "destination": "/_v/karsilastir-yamaha-nmax-155--ktm-390-duke"
     },
     {
       "source": "/karsilastir",
@@ -1479,7 +1479,7 @@
           "value": "^(yamaha-nmax-155(,|%2C)honda-rebel-500|honda-rebel-500(,|%2C)yamaha-nmax-155)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--honda-rebel-500.html"
+      "destination": "/_v/karsilastir-yamaha-nmax-155--honda-rebel-500"
     },
     {
       "source": "/karsilastir",
@@ -1490,7 +1490,7 @@
           "value": "^(yamaha-nmax-155(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)yamaha-nmax-155)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--yamaha-tenere-700.html"
+      "destination": "/_v/karsilastir-yamaha-nmax-155--yamaha-tenere-700"
     },
     {
       "source": "/karsilastir",
@@ -1501,7 +1501,7 @@
           "value": "^(yamaha-nmax-155(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)yamaha-nmax-155)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--honda-crf1100l-africa-twin.html"
+      "destination": "/_v/karsilastir-yamaha-nmax-155--honda-crf1100l-africa-twin"
     },
     {
       "source": "/karsilastir",
@@ -1512,7 +1512,7 @@
           "value": "^(yamaha-nmax-155(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)yamaha-nmax-155)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--bmw-r-1300-gs.html"
+      "destination": "/_v/karsilastir-yamaha-nmax-155--bmw-r-1300-gs"
     },
     {
       "source": "/karsilastir",
@@ -1523,7 +1523,7 @@
           "value": "^(yamaha-nmax-155(,|%2C)honda-nc750x|honda-nc750x(,|%2C)yamaha-nmax-155)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--honda-nc750x.html"
+      "destination": "/_v/karsilastir-yamaha-nmax-155--honda-nc750x"
     },
     {
       "source": "/karsilastir",
@@ -1534,7 +1534,7 @@
           "value": "^(yamaha-nmax-155(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)yamaha-nmax-155)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--super-soco-cpx.html"
+      "destination": "/_v/karsilastir-yamaha-nmax-155--super-soco-cpx"
     },
     {
       "source": "/karsilastir",
@@ -1545,7 +1545,7 @@
           "value": "^(yamaha-xmax-300(,|%2C)vespa-gts-300|vespa-gts-300(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--vespa-gts-300.html"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--vespa-gts-300"
     },
     {
       "source": "/karsilastir",
@@ -1556,7 +1556,7 @@
           "value": "^(yamaha-xmax-300(,|%2C)honda-cb650r|honda-cb650r(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--honda-cb650r.html"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--honda-cb650r"
     },
     {
       "source": "/karsilastir",
@@ -1567,7 +1567,7 @@
           "value": "^(yamaha-xmax-300(,|%2C)yamaha-mt-07|yamaha-mt-07(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--yamaha-mt-07.html"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--yamaha-mt-07"
     },
     {
       "source": "/karsilastir",
@@ -1578,7 +1578,7 @@
           "value": "^(yamaha-xmax-300(,|%2C)kawasaki-z650|kawasaki-z650(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--kawasaki-z650.html"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--kawasaki-z650"
     },
     {
       "source": "/karsilastir",
@@ -1589,7 +1589,7 @@
           "value": "^(yamaha-xmax-300(,|%2C)ktm-390-duke|ktm-390-duke(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--ktm-390-duke.html"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--ktm-390-duke"
     },
     {
       "source": "/karsilastir",
@@ -1600,7 +1600,7 @@
           "value": "^(yamaha-xmax-300(,|%2C)honda-rebel-500|honda-rebel-500(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--honda-rebel-500.html"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--honda-rebel-500"
     },
     {
       "source": "/karsilastir",
@@ -1611,7 +1611,7 @@
           "value": "^(yamaha-xmax-300(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--yamaha-tenere-700.html"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--yamaha-tenere-700"
     },
     {
       "source": "/karsilastir",
@@ -1622,7 +1622,7 @@
           "value": "^(yamaha-xmax-300(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--honda-crf1100l-africa-twin.html"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--honda-crf1100l-africa-twin"
     },
     {
       "source": "/karsilastir",
@@ -1633,7 +1633,7 @@
           "value": "^(yamaha-xmax-300(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--bmw-r-1300-gs.html"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--bmw-r-1300-gs"
     },
     {
       "source": "/karsilastir",
@@ -1644,7 +1644,7 @@
           "value": "^(yamaha-xmax-300(,|%2C)honda-nc750x|honda-nc750x(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--honda-nc750x.html"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--honda-nc750x"
     },
     {
       "source": "/karsilastir",
@@ -1655,7 +1655,7 @@
           "value": "^(yamaha-xmax-300(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--super-soco-cpx.html"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--super-soco-cpx"
     },
     {
       "source": "/karsilastir",
@@ -1666,7 +1666,7 @@
           "value": "^(vespa-gts-300(,|%2C)honda-cb650r|honda-cb650r(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--honda-cb650r.html"
+      "destination": "/_v/karsilastir-vespa-gts-300--honda-cb650r"
     },
     {
       "source": "/karsilastir",
@@ -1677,7 +1677,7 @@
           "value": "^(vespa-gts-300(,|%2C)yamaha-mt-07|yamaha-mt-07(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--yamaha-mt-07.html"
+      "destination": "/_v/karsilastir-vespa-gts-300--yamaha-mt-07"
     },
     {
       "source": "/karsilastir",
@@ -1688,7 +1688,7 @@
           "value": "^(vespa-gts-300(,|%2C)kawasaki-z650|kawasaki-z650(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--kawasaki-z650.html"
+      "destination": "/_v/karsilastir-vespa-gts-300--kawasaki-z650"
     },
     {
       "source": "/karsilastir",
@@ -1699,7 +1699,7 @@
           "value": "^(vespa-gts-300(,|%2C)ktm-390-duke|ktm-390-duke(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--ktm-390-duke.html"
+      "destination": "/_v/karsilastir-vespa-gts-300--ktm-390-duke"
     },
     {
       "source": "/karsilastir",
@@ -1710,7 +1710,7 @@
           "value": "^(vespa-gts-300(,|%2C)honda-rebel-500|honda-rebel-500(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--honda-rebel-500.html"
+      "destination": "/_v/karsilastir-vespa-gts-300--honda-rebel-500"
     },
     {
       "source": "/karsilastir",
@@ -1721,7 +1721,7 @@
           "value": "^(vespa-gts-300(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--yamaha-tenere-700.html"
+      "destination": "/_v/karsilastir-vespa-gts-300--yamaha-tenere-700"
     },
     {
       "source": "/karsilastir",
@@ -1732,7 +1732,7 @@
           "value": "^(vespa-gts-300(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--honda-crf1100l-africa-twin.html"
+      "destination": "/_v/karsilastir-vespa-gts-300--honda-crf1100l-africa-twin"
     },
     {
       "source": "/karsilastir",
@@ -1743,7 +1743,7 @@
           "value": "^(vespa-gts-300(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--bmw-r-1300-gs.html"
+      "destination": "/_v/karsilastir-vespa-gts-300--bmw-r-1300-gs"
     },
     {
       "source": "/karsilastir",
@@ -1754,7 +1754,7 @@
           "value": "^(vespa-gts-300(,|%2C)honda-nc750x|honda-nc750x(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--honda-nc750x.html"
+      "destination": "/_v/karsilastir-vespa-gts-300--honda-nc750x"
     },
     {
       "source": "/karsilastir",
@@ -1765,7 +1765,7 @@
           "value": "^(vespa-gts-300(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--super-soco-cpx.html"
+      "destination": "/_v/karsilastir-vespa-gts-300--super-soco-cpx"
     },
     {
       "source": "/karsilastir",
@@ -1776,7 +1776,7 @@
           "value": "^(honda-cb650r(,|%2C)yamaha-mt-07|yamaha-mt-07(,|%2C)honda-cb650r)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--yamaha-mt-07.html"
+      "destination": "/_v/karsilastir-honda-cb650r--yamaha-mt-07"
     },
     {
       "source": "/karsilastir",
@@ -1787,7 +1787,7 @@
           "value": "^(honda-cb650r(,|%2C)kawasaki-z650|kawasaki-z650(,|%2C)honda-cb650r)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--kawasaki-z650.html"
+      "destination": "/_v/karsilastir-honda-cb650r--kawasaki-z650"
     },
     {
       "source": "/karsilastir",
@@ -1798,7 +1798,7 @@
           "value": "^(honda-cb650r(,|%2C)ktm-390-duke|ktm-390-duke(,|%2C)honda-cb650r)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--ktm-390-duke.html"
+      "destination": "/_v/karsilastir-honda-cb650r--ktm-390-duke"
     },
     {
       "source": "/karsilastir",
@@ -1809,7 +1809,7 @@
           "value": "^(honda-cb650r(,|%2C)honda-rebel-500|honda-rebel-500(,|%2C)honda-cb650r)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--honda-rebel-500.html"
+      "destination": "/_v/karsilastir-honda-cb650r--honda-rebel-500"
     },
     {
       "source": "/karsilastir",
@@ -1820,7 +1820,7 @@
           "value": "^(honda-cb650r(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)honda-cb650r)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--yamaha-tenere-700.html"
+      "destination": "/_v/karsilastir-honda-cb650r--yamaha-tenere-700"
     },
     {
       "source": "/karsilastir",
@@ -1831,7 +1831,7 @@
           "value": "^(honda-cb650r(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)honda-cb650r)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--honda-crf1100l-africa-twin.html"
+      "destination": "/_v/karsilastir-honda-cb650r--honda-crf1100l-africa-twin"
     },
     {
       "source": "/karsilastir",
@@ -1842,7 +1842,7 @@
           "value": "^(honda-cb650r(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)honda-cb650r)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--bmw-r-1300-gs.html"
+      "destination": "/_v/karsilastir-honda-cb650r--bmw-r-1300-gs"
     },
     {
       "source": "/karsilastir",
@@ -1853,7 +1853,7 @@
           "value": "^(honda-cb650r(,|%2C)honda-nc750x|honda-nc750x(,|%2C)honda-cb650r)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--honda-nc750x.html"
+      "destination": "/_v/karsilastir-honda-cb650r--honda-nc750x"
     },
     {
       "source": "/karsilastir",
@@ -1864,7 +1864,7 @@
           "value": "^(honda-cb650r(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)honda-cb650r)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--super-soco-cpx.html"
+      "destination": "/_v/karsilastir-honda-cb650r--super-soco-cpx"
     },
     {
       "source": "/karsilastir",
@@ -1875,7 +1875,7 @@
           "value": "^(yamaha-mt-07(,|%2C)kawasaki-z650|kawasaki-z650(,|%2C)yamaha-mt-07)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-mt-07--kawasaki-z650.html"
+      "destination": "/_v/karsilastir-yamaha-mt-07--kawasaki-z650"
     },
     {
       "source": "/karsilastir",
@@ -1886,7 +1886,7 @@
           "value": "^(yamaha-mt-07(,|%2C)ktm-390-duke|ktm-390-duke(,|%2C)yamaha-mt-07)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-mt-07--ktm-390-duke.html"
+      "destination": "/_v/karsilastir-yamaha-mt-07--ktm-390-duke"
     },
     {
       "source": "/karsilastir",
@@ -1897,7 +1897,7 @@
           "value": "^(yamaha-mt-07(,|%2C)honda-rebel-500|honda-rebel-500(,|%2C)yamaha-mt-07)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-mt-07--honda-rebel-500.html"
+      "destination": "/_v/karsilastir-yamaha-mt-07--honda-rebel-500"
     },
     {
       "source": "/karsilastir",
@@ -1908,7 +1908,7 @@
           "value": "^(yamaha-mt-07(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)yamaha-mt-07)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-mt-07--yamaha-tenere-700.html"
+      "destination": "/_v/karsilastir-yamaha-mt-07--yamaha-tenere-700"
     },
     {
       "source": "/karsilastir",
@@ -1919,7 +1919,7 @@
           "value": "^(yamaha-mt-07(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)yamaha-mt-07)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-mt-07--honda-crf1100l-africa-twin.html"
+      "destination": "/_v/karsilastir-yamaha-mt-07--honda-crf1100l-africa-twin"
     },
     {
       "source": "/karsilastir",
@@ -1930,7 +1930,7 @@
           "value": "^(yamaha-mt-07(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)yamaha-mt-07)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-mt-07--bmw-r-1300-gs.html"
+      "destination": "/_v/karsilastir-yamaha-mt-07--bmw-r-1300-gs"
     },
     {
       "source": "/karsilastir",
@@ -1941,7 +1941,7 @@
           "value": "^(yamaha-mt-07(,|%2C)honda-nc750x|honda-nc750x(,|%2C)yamaha-mt-07)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-mt-07--honda-nc750x.html"
+      "destination": "/_v/karsilastir-yamaha-mt-07--honda-nc750x"
     },
     {
       "source": "/karsilastir",
@@ -1952,7 +1952,7 @@
           "value": "^(yamaha-mt-07(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)yamaha-mt-07)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-mt-07--super-soco-cpx.html"
+      "destination": "/_v/karsilastir-yamaha-mt-07--super-soco-cpx"
     },
     {
       "source": "/karsilastir",
@@ -1963,7 +1963,7 @@
           "value": "^(kawasaki-z650(,|%2C)ktm-390-duke|ktm-390-duke(,|%2C)kawasaki-z650)$"
         }
       ],
-      "destination": "/_v/karsilastir-kawasaki-z650--ktm-390-duke.html"
+      "destination": "/_v/karsilastir-kawasaki-z650--ktm-390-duke"
     },
     {
       "source": "/karsilastir",
@@ -1974,7 +1974,7 @@
           "value": "^(kawasaki-z650(,|%2C)honda-rebel-500|honda-rebel-500(,|%2C)kawasaki-z650)$"
         }
       ],
-      "destination": "/_v/karsilastir-kawasaki-z650--honda-rebel-500.html"
+      "destination": "/_v/karsilastir-kawasaki-z650--honda-rebel-500"
     },
     {
       "source": "/karsilastir",
@@ -1985,7 +1985,7 @@
           "value": "^(kawasaki-z650(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)kawasaki-z650)$"
         }
       ],
-      "destination": "/_v/karsilastir-kawasaki-z650--yamaha-tenere-700.html"
+      "destination": "/_v/karsilastir-kawasaki-z650--yamaha-tenere-700"
     },
     {
       "source": "/karsilastir",
@@ -1996,7 +1996,7 @@
           "value": "^(kawasaki-z650(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)kawasaki-z650)$"
         }
       ],
-      "destination": "/_v/karsilastir-kawasaki-z650--honda-crf1100l-africa-twin.html"
+      "destination": "/_v/karsilastir-kawasaki-z650--honda-crf1100l-africa-twin"
     },
     {
       "source": "/karsilastir",
@@ -2007,7 +2007,7 @@
           "value": "^(kawasaki-z650(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)kawasaki-z650)$"
         }
       ],
-      "destination": "/_v/karsilastir-kawasaki-z650--bmw-r-1300-gs.html"
+      "destination": "/_v/karsilastir-kawasaki-z650--bmw-r-1300-gs"
     },
     {
       "source": "/karsilastir",
@@ -2018,7 +2018,7 @@
           "value": "^(kawasaki-z650(,|%2C)honda-nc750x|honda-nc750x(,|%2C)kawasaki-z650)$"
         }
       ],
-      "destination": "/_v/karsilastir-kawasaki-z650--honda-nc750x.html"
+      "destination": "/_v/karsilastir-kawasaki-z650--honda-nc750x"
     },
     {
       "source": "/karsilastir",
@@ -2029,7 +2029,7 @@
           "value": "^(kawasaki-z650(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)kawasaki-z650)$"
         }
       ],
-      "destination": "/_v/karsilastir-kawasaki-z650--super-soco-cpx.html"
+      "destination": "/_v/karsilastir-kawasaki-z650--super-soco-cpx"
     },
     {
       "source": "/karsilastir",
@@ -2040,7 +2040,7 @@
           "value": "^(ktm-390-duke(,|%2C)honda-rebel-500|honda-rebel-500(,|%2C)ktm-390-duke)$"
         }
       ],
-      "destination": "/_v/karsilastir-ktm-390-duke--honda-rebel-500.html"
+      "destination": "/_v/karsilastir-ktm-390-duke--honda-rebel-500"
     },
     {
       "source": "/karsilastir",
@@ -2051,7 +2051,7 @@
           "value": "^(ktm-390-duke(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)ktm-390-duke)$"
         }
       ],
-      "destination": "/_v/karsilastir-ktm-390-duke--yamaha-tenere-700.html"
+      "destination": "/_v/karsilastir-ktm-390-duke--yamaha-tenere-700"
     },
     {
       "source": "/karsilastir",
@@ -2062,7 +2062,7 @@
           "value": "^(ktm-390-duke(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)ktm-390-duke)$"
         }
       ],
-      "destination": "/_v/karsilastir-ktm-390-duke--honda-crf1100l-africa-twin.html"
+      "destination": "/_v/karsilastir-ktm-390-duke--honda-crf1100l-africa-twin"
     },
     {
       "source": "/karsilastir",
@@ -2073,7 +2073,7 @@
           "value": "^(ktm-390-duke(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)ktm-390-duke)$"
         }
       ],
-      "destination": "/_v/karsilastir-ktm-390-duke--bmw-r-1300-gs.html"
+      "destination": "/_v/karsilastir-ktm-390-duke--bmw-r-1300-gs"
     },
     {
       "source": "/karsilastir",
@@ -2084,7 +2084,7 @@
           "value": "^(ktm-390-duke(,|%2C)honda-nc750x|honda-nc750x(,|%2C)ktm-390-duke)$"
         }
       ],
-      "destination": "/_v/karsilastir-ktm-390-duke--honda-nc750x.html"
+      "destination": "/_v/karsilastir-ktm-390-duke--honda-nc750x"
     },
     {
       "source": "/karsilastir",
@@ -2095,7 +2095,7 @@
           "value": "^(ktm-390-duke(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)ktm-390-duke)$"
         }
       ],
-      "destination": "/_v/karsilastir-ktm-390-duke--super-soco-cpx.html"
+      "destination": "/_v/karsilastir-ktm-390-duke--super-soco-cpx"
     },
     {
       "source": "/karsilastir",
@@ -2106,7 +2106,7 @@
           "value": "^(honda-rebel-500(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)honda-rebel-500)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-rebel-500--yamaha-tenere-700.html"
+      "destination": "/_v/karsilastir-honda-rebel-500--yamaha-tenere-700"
     },
     {
       "source": "/karsilastir",
@@ -2117,7 +2117,7 @@
           "value": "^(honda-rebel-500(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)honda-rebel-500)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-rebel-500--honda-crf1100l-africa-twin.html"
+      "destination": "/_v/karsilastir-honda-rebel-500--honda-crf1100l-africa-twin"
     },
     {
       "source": "/karsilastir",
@@ -2128,7 +2128,7 @@
           "value": "^(honda-rebel-500(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)honda-rebel-500)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-rebel-500--bmw-r-1300-gs.html"
+      "destination": "/_v/karsilastir-honda-rebel-500--bmw-r-1300-gs"
     },
     {
       "source": "/karsilastir",
@@ -2139,7 +2139,7 @@
           "value": "^(honda-rebel-500(,|%2C)honda-nc750x|honda-nc750x(,|%2C)honda-rebel-500)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-rebel-500--honda-nc750x.html"
+      "destination": "/_v/karsilastir-honda-rebel-500--honda-nc750x"
     },
     {
       "source": "/karsilastir",
@@ -2150,7 +2150,7 @@
           "value": "^(honda-rebel-500(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)honda-rebel-500)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-rebel-500--super-soco-cpx.html"
+      "destination": "/_v/karsilastir-honda-rebel-500--super-soco-cpx"
     },
     {
       "source": "/karsilastir",
@@ -2161,7 +2161,7 @@
           "value": "^(yamaha-tenere-700(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)yamaha-tenere-700)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-tenere-700--honda-crf1100l-africa-twin.html"
+      "destination": "/_v/karsilastir-yamaha-tenere-700--honda-crf1100l-africa-twin"
     },
     {
       "source": "/karsilastir",
@@ -2172,7 +2172,7 @@
           "value": "^(yamaha-tenere-700(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)yamaha-tenere-700)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-tenere-700--bmw-r-1300-gs.html"
+      "destination": "/_v/karsilastir-yamaha-tenere-700--bmw-r-1300-gs"
     },
     {
       "source": "/karsilastir",
@@ -2183,7 +2183,7 @@
           "value": "^(yamaha-tenere-700(,|%2C)honda-nc750x|honda-nc750x(,|%2C)yamaha-tenere-700)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-tenere-700--honda-nc750x.html"
+      "destination": "/_v/karsilastir-yamaha-tenere-700--honda-nc750x"
     },
     {
       "source": "/karsilastir",
@@ -2194,7 +2194,7 @@
           "value": "^(yamaha-tenere-700(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)yamaha-tenere-700)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-tenere-700--super-soco-cpx.html"
+      "destination": "/_v/karsilastir-yamaha-tenere-700--super-soco-cpx"
     },
     {
       "source": "/karsilastir",
@@ -2205,7 +2205,7 @@
           "value": "^(honda-crf1100l-africa-twin(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)honda-crf1100l-africa-twin)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin--bmw-r-1300-gs.html"
+      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin--bmw-r-1300-gs"
     },
     {
       "source": "/karsilastir",
@@ -2216,7 +2216,7 @@
           "value": "^(honda-crf1100l-africa-twin(,|%2C)honda-nc750x|honda-nc750x(,|%2C)honda-crf1100l-africa-twin)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin--honda-nc750x.html"
+      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin--honda-nc750x"
     },
     {
       "source": "/karsilastir",
@@ -2227,7 +2227,7 @@
           "value": "^(honda-crf1100l-africa-twin(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)honda-crf1100l-africa-twin)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin--super-soco-cpx.html"
+      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin--super-soco-cpx"
     },
     {
       "source": "/karsilastir",
@@ -2238,7 +2238,7 @@
           "value": "^(bmw-r-1300-gs(,|%2C)honda-nc750x|honda-nc750x(,|%2C)bmw-r-1300-gs)$"
         }
       ],
-      "destination": "/_v/karsilastir-bmw-r-1300-gs--honda-nc750x.html"
+      "destination": "/_v/karsilastir-bmw-r-1300-gs--honda-nc750x"
     },
     {
       "source": "/karsilastir",
@@ -2249,7 +2249,7 @@
           "value": "^(bmw-r-1300-gs(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)bmw-r-1300-gs)$"
         }
       ],
-      "destination": "/_v/karsilastir-bmw-r-1300-gs--super-soco-cpx.html"
+      "destination": "/_v/karsilastir-bmw-r-1300-gs--super-soco-cpx"
     },
     {
       "source": "/karsilastir",
@@ -2260,15 +2260,15 @@
           "value": "^(honda-nc750x(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)honda-nc750x)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-nc750x--super-soco-cpx.html"
+      "destination": "/_v/karsilastir-honda-nc750x--super-soco-cpx"
     },
     {
       "source": "/motosikletler",
-      "destination": "/_v/motosikletler.html"
+      "destination": "/_v/motosikletler"
     },
     {
       "source": "/karsilastir",
-      "destination": "/_v/karsilastir.html"
+      "destination": "/_v/karsilastir"
     }
   ]
 }

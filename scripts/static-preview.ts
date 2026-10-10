@@ -163,9 +163,9 @@ async function main() {
       source: v.source,
       has: Object.entries(v.has).map(([key, value]) => ({ type: "query", key, value })),
       ...(v.missing.length ? { missing: v.missing.map((key) => ({ type: "query", key })) } : {}),
-      destination: v.file,
+      destination: v.file.replace(/.html$/, ""), // cleanUrls: hedef uzantısız olmalı
     })),
-    ...[...rewritten].map((p) => ({ source: p, destination: `/_v/${p.slice(1)}.html` })),
+    ...[...rewritten].map((p) => ({ source: p, destination: `/_v/${p.slice(1)}` })),
   ];
   const vercel = {
     $schema: "https://openapi.vercel.sh/vercel.json",
