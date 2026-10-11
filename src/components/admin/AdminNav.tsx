@@ -20,7 +20,7 @@ export function AdminNav({ items, footer }: { items: NavItem[]; footer: React.Re
     <>
       <div className="on-dark flex h-14 items-center justify-between bg-ink px-4 text-white lg:hidden">
         <Link href="/admin" className="font-display text-xl font-bold uppercase tracking-wide">
-          Öztunç <span className="text-muted-dark">Panel</span>
+          Öztunc <span className="text-muted-dark">Panel</span>
         </Link>
         <button
           type="button"
@@ -42,7 +42,7 @@ export function AdminNav({ items, footer }: { items: NavItem[]; footer: React.Re
       >
         <div className="hidden px-6 pb-4 pt-6 lg:block">
           <Link href="/admin" className="font-display text-2xl font-bold uppercase tracking-wide">
-            Öztunç <span className="text-muted-dark">Panel</span>
+            Öztunc <span className="text-muted-dark">Panel</span>
           </Link>
         </div>
         <nav aria-label="Yönetim menüsü" className="px-3 pb-6">

@@ -134,7 +134,7 @@ export async function createAppointment(input: AppointmentInput, now = new Date(
               `${when} için servis randevu talebiniz alındı. Referans numaranız: ${reference}`,
               `Bu bir onay değildir; kesin tarih ve saat için ekibimiz sizinle iletişime geçecektir.`,
               ``,
-              settings?.businessName ?? "Öztunç Motor",
+              settings?.businessName ?? "Öztunc Motor",
             ].join("\n"),
           });
         }

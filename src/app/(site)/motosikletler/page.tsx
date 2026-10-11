@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CatalogFilters } from "@/components/catalog/CatalogFilters";
 import { MotorcycleCard } from "@/components/catalog/MotorcycleCard";
-import { Close } from "@/components/icons";
+import { ChevronLeft, ChevronRight, Close } from "@/components/icons";
 import {
   CC_RANGES,
   POWERTRAIN_OPTIONS,
@@ -25,7 +25,7 @@ export async function generateMetadata({ searchParams }: PageProps<"/motosikletl
       title: seo?.title || "Motosikletler | Düzce Motosiklet Satışı",
       description:
         seo?.description ||
-        "Öztunç Motor showroom’undaki motosiklet modelleri: marka, kategori, motor hacmi, fiyat ve stok durumuna göre filtreleyin; Düzce’de yerinde inceleyin.",
+        "Öztunc Motor showroom’undaki motosiklet modelleri: marka, kategori, motor hacmi, fiyat ve stok durumuna göre filtreleyin; Düzce’de yerinde inceleyin.",
       path: "/motosikletler",
     }),
     // Filtreli sonuç sayfaları ana katalog sayfasına canonical verir; dizine eklenmez
@@ -34,9 +34,11 @@ export async function generateMetadata({ searchParams }: PageProps<"/motosikletl
 }
 
 export default async function CatalogPage({ searchParams }: PageProps<"/motosikletler">) {
-  const filters = parseCatalogParams(await searchParams);
-  const [results, brands, categories] = await Promise.all([
-    searchCatalog(filters),
+  const params = await searchParams;
+  const filters = parseCatalogParams(params);
+  const requestedPage = Number(String(params.sayfa ?? "1").replace(/\D/g, "")) || 1;
+  const [{ items: results, total, page, pages }, brands, categories] = await Promise.all([
+    searchCatalog(filters, requestedPage),
     getVisibleBrands(),
     getVisibleCategories(),
   ]);
@@ -75,12 +77,18 @@ export default async function CatalogPage({ searchParams }: PageProps<"/motosikl
             filters={filters}
             brands={brands.map((b) => ({ value: b.slug, label: b.name }))}
             categories={categories.map((c) => ({ value: c.slug, label: c.name }))}
-            resultCount={results.length}
+            resultCount={total}
           >
             <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-3">
               <p className="text-[0.9375rem]">
-                <strong className="font-extrabold tabular-nums">{results.length}</strong>{" "}
+                <strong className="font-extrabold tabular-nums">{total}</strong>{" "}
                 <span className="text-muted">model listeleniyor</span>
+                {pages > 1 && (
+                  <span className="text-muted">
+                    {" "}
+                    · sayfa {page}/{pages}
+                  </span>
+                )}
               </p>
               {active.length > 0 && (
                 <>
@@ -111,11 +119,14 @@ export default async function CatalogPage({ searchParams }: PageProps<"/motosikl
             </div>
 
             {results.length > 0 ? (
-              <div className="mt-6 grid gap-5 sm:grid-cols-2 2xl:grid-cols-3 lg:gap-6">
-                {results.map((m, i) => (
-                  <MotorcycleCard key={m.id} item={m} priority={i < 2} headingLevel="h2" />
-                ))}
-              </div>
+              <>
+                <div className="mt-6 grid gap-5 sm:grid-cols-2 2xl:grid-cols-3 lg:gap-6">
+                  {results.map((m, i) => (
+                    <MotorcycleCard key={m.id} item={m} priority={i < 2} headingLevel="h2" />
+                  ))}
+                </div>
+                {pages > 1 && <Pagination filters={filters} page={page} pages={pages} />}
+              </>
             ) : (
               <EmptyState filtered={hasActiveFilters(filters)} />
             )}
@@ -123,6 +134,50 @@ export default async function CatalogPage({ searchParams }: PageProps<"/motosikl
         </div>
       </section>
     </>
+  );
+}
+
+function pageHref(filters: Filters, page: number) {
+  const qs = catalogQueryString(filters);
+  if (page <= 1) return `/motosikletler${qs}`;
+  return `/motosikletler${qs ? `${qs}&` : "?"}sayfa=${page}`;
+}
+
+function Pagination({ filters, page, pages }: { filters: Filters; page: number; pages: number }) {
+  // İlk, son ve geçerli sayfanın çevresi; aradaki boşluklar "…" ile gösterilir
+  const shown = [...new Set([1, page - 1, page, page + 1, pages])].filter((p) => p >= 1 && p <= pages).sort((a, b) => a - b);
+  const base = "inline-flex h-11 min-w-11 items-center justify-center rounded-lg px-3 text-[0.9375rem] font-bold tabular-nums";
+  return (
+    <nav aria-label="Sayfalar" className="mt-10 flex flex-wrap items-center justify-center gap-2">
+      {page > 1 && (
+        <Link href={pageHref(filters, page - 1)} className={`${base} border border-line bg-white hover:border-text`} aria-label="Önceki sayfa">
+          <ChevronLeft size={18} />
+        </Link>
+      )}
+      {shown.map((p, i) => (
+        <span key={p} className="contents">
+          {i > 0 && p - shown[i - 1] > 1 && (
+            <span aria-hidden className="px-1 text-muted">
+              …
+            </span>
+          )}
+          {p === page ? (
+            <span aria-current="page" className={`${base} bg-ink text-white`}>
+              {p}
+            </span>
+          ) : (
+            <Link href={pageHref(filters, p)} className={`${base} border border-line bg-white hover:border-text`} aria-label={`Sayfa ${p}`}>
+              {p}
+            </Link>
+          )}
+        </span>
+      ))}
+      {page < pages && (
+        <Link href={pageHref(filters, page + 1)} className={`${base} border border-line bg-white hover:border-text`} aria-label="Sonraki sayfa">
+          <ChevronRight size={18} />
+        </Link>
+      )}
+    </nav>
   );
 }
 

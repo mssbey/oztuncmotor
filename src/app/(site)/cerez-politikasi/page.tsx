@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "Çerez Politikası",
-  description: "Öztunç Motor web sitesinde kullanılan çerezler ve tarayıcı depolaması hakkında bilgi.",
+  description: "Öztunc Motor web sitesinde kullanılan çerezler ve tarayıcı depolaması hakkında bilgi.",
   path: "/cerez-politikasi",
 });
 

@@ -88,6 +88,70 @@ export const getFeaturedMotorcycles = cache(async (limit = 6) => {
   return rows.map(toCard);
 });
 
+export type ShowcaseItem = {
+  slug: string;
+  label: string;
+  brand: { name: string; slug: string };
+  model: string;
+  image: { url: string; width: number; height: number };
+};
+
+/**
+ * Tanıtım sayfalarındaki vitrin görselleri: verilen sırayla, yalnızca yayımlanmış ve görseli olan ürünler.
+ * Listede olmayan/yayından kalkan ürün sessizce atlanır.
+ */
+export const getShowcase = cache(async (slugs: string[]): Promise<ShowcaseItem[]> => {
+  const rows = await db.motorcycle.findMany({
+    where: { slug: { in: slugs }, published: true, ...demoVisibility() },
+    include: cardInclude,
+  });
+  return slugs.flatMap((slug) => {
+    const m = rows.find((r) => r.slug === slug);
+    const media = m?.images[0]?.media;
+    return m && media ? [{ slug, label: `${m.brand.name} ${m.model}`, brand: m.brand, model: m.model, image: media }] : [];
+  });
+});
+
+/** Verilen sıradaki ürün kartları (ana sayfa sahnesi gibi elle seçilmiş listeler için). */
+export const getCardsBySlugs = cache(async (slugs: string[]) => {
+  const rows = await db.motorcycle.findMany({
+    where: { slug: { in: slugs }, published: true, ...demoVisibility() },
+    include: cardInclude,
+  });
+  return slugs.flatMap((slug) => {
+    const m = rows.find((r) => r.slug === slug);
+    return m && m.images.length ? [toCard(m)] : [];
+  });
+});
+
+/** Katalogdaki gerçek sayılar (tanıtım sayfalarında uydurma istatistik yerine kullanılır). */
+export const getCatalogStats = cache(async () => {
+  const where = { published: true, ...demoVisibility() };
+  const [models, categories, brands] = await Promise.all([
+    db.motorcycle.count({ where }),
+    db.category.count({ where: { published: true, motorcycles: { some: where } } }),
+    db.brand.findMany({ where: { motorcycles: { some: where } }, select: { slug: true } }),
+  ]);
+  return { models, categories, brands: brands.length };
+});
+
+/** Verilen markaların yayımlanmış model sayıları ve model adları (kayan şerit için). */
+export const getBrandLineup = cache(async (brandSlugs: string[]) => {
+  const where = { published: true, ...demoVisibility(), brand: { slug: { in: brandSlugs } } };
+  const [rows, models] = await Promise.all([
+    db.brand.findMany({
+      where: { slug: { in: brandSlugs } },
+      select: { name: true, slug: true, _count: { select: { motorcycles: { where: { published: true, ...demoVisibility() } } } } },
+      orderBy: { sortOrder: "asc" },
+    }),
+    db.motorcycle.findMany({ where, select: { model: true, slug: true }, orderBy: { sortOrder: "asc" }, take: 40 }),
+  ]);
+  return {
+    brands: rows.filter((b) => b._count.motorcycles > 0).map((b) => ({ name: b.name, slug: b.slug, count: b._count.motorcycles })),
+    models,
+  };
+});
+
 /** Yayımlanmış ürünü olan kategoriler (boş kategoriler ziyaretçiye gösterilmez). */
 export const getVisibleCategories = cache(async () => {
   const categories = await db.category.findMany({
@@ -150,7 +214,9 @@ export function buildCatalogWhere(f: CatalogFilters): Prisma.MotorcycleWhereInpu
   return { AND: and };
 }
 
-export async function searchCatalog(f: CatalogFilters) {
+export const CATALOG_PAGE_SIZE = 24;
+
+export async function searchCatalog(f: CatalogFilters, page = 1) {
   const orderBy: Prisma.MotorcycleOrderByWithRelationInput[] =
     f.sort === "fiyat-artan"
       ? [{ priceTL: { sort: "asc", nulls: "last" } }]
@@ -159,13 +225,18 @@ export async function searchCatalog(f: CatalogFilters) {
         : f.sort === "yeni"
           ? [{ createdAt: "desc" }]
           : [{ featured: "desc" }, { sortOrder: "asc" }, { createdAt: "desc" }];
+  const where = buildCatalogWhere(f);
+  const total = await db.motorcycle.count({ where });
+  const pages = Math.max(1, Math.ceil(total / CATALOG_PAGE_SIZE));
+  const current = Math.min(Math.max(1, page), pages);
   const rows = await db.motorcycle.findMany({
-    where: buildCatalogWhere(f),
+    where,
     include: cardInclude,
-    orderBy,
-    take: 120,
+    orderBy: [...orderBy, { id: "asc" }], // sayfalar arasında kararlı sıra
+    skip: (current - 1) * CATALOG_PAGE_SIZE,
+    take: CATALOG_PAGE_SIZE,
   });
-  return rows.map(toCard);
+  return { items: rows.map(toCard), total, page: current, pages };
 }
 
 export async function getPriceBounds() {

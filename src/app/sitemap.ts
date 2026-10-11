@@ -11,7 +11,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     where: { published: true, isDemo: false },
     select: { slug: true, updatedAt: true },
   });
-  const pages = ["", "/motosikletler", "/servis", "/servis-randevusu", "/hakkimizda", "/iletisim", "/kvkk", "/gizlilik", "/cerez-politikasi"];
+  const pages = ["", "/motosikletler", "/servis", "/servis-randevusu", "/yedek-parca", "/aksesuar", "/hakkimizda", "/iletisim", "/kvkk", "/gizlilik", "/cerez-politikasi"];
   return [
     ...pages.map((p) => ({ url: `${base}${p}`, changeFrequency: "weekly" as const, priority: p === "" ? 1 : 0.7 })),
     ...motorcycles.map((m) => ({

@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: PageProps<"/motosikletler/[sl
       `${m.brand} ${m.model}`,
       m.summary,
       price ? `Fiyat: ${price}.` : "Fiyat bilgisi için iletişime geçin.",
-      "Öztunç Motor, Düzce.",
+      "Öztunc Motor, Düzce.",
     ]
       .filter(Boolean)
       .join(" ")

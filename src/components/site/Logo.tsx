@@ -13,7 +13,7 @@ export function Logo({ logo, compact = false, tone = "light" }: Props) {
     return (
       <Image
         src={logo.url}
-        alt="Öztunç Motor"
+        alt="Öztunc Motor"
         width={Math.round((logo.width / logo.height) * h)}
         height={h}
         className="h-8 w-auto lg:h-10"
@@ -33,7 +33,7 @@ export function Logo({ logo, compact = false, tone = "light" }: Props) {
           compact ? "text-[1.45rem]" : "text-[1.7rem]"
         }`}
       >
-        Öztunç
+        Öztunc
       </span>
       <span
         className={`font-medium tracking-[0.22em] transition-[font-size] duration-200 ${

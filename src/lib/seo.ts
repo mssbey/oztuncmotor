@@ -26,7 +26,7 @@ export function buildMetadata(opts: {
   noindex?: boolean;
 }): Metadata {
   const canonical = absoluteUrl(opts.path);
-  const image = opts.image ?? { url: "/og", width: 1200, height: 630, alt: "Öztunç Motor" };
+  const image = opts.image ?? { url: "/og", width: 1200, height: 630, alt: "Öztunc Motor" };
   const imageUrl = image.url.startsWith("http") ? image.url : absoluteUrl(image.url);
   return {
     title: opts.title,
@@ -35,7 +35,7 @@ export function buildMetadata(opts: {
     openGraph: {
       type: "website",
       locale: "tr_TR",
-      siteName: "Öztunç Motor",
+      siteName: "Öztunc Motor",
       title: opts.title,
       description: opts.description,
       ...(canonical ? { url: canonical } : {}),

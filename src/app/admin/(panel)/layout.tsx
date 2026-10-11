@@ -7,7 +7,7 @@ import { requirePage } from "@/server/auth";
 import { logoutAction } from "../actions/auth";
 
 export const metadata: Metadata = {
-  title: { default: "Yönetim", template: "%s | Öztunç Panel" },
+  title: { default: "Yönetim", template: "%s | Öztunc Panel" },
   robots: { index: false, follow: false },
 };
 export const dynamic = "force-dynamic";

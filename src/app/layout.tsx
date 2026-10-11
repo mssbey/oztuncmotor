@@ -21,11 +21,11 @@ const base = siteUrl();
 export const metadata: Metadata = {
   ...(base ? { metadataBase: new URL(base) } : {}),
   title: {
-    default: "Öztunç Motor | Düzce Motosiklet Satış ve Servis",
-    template: "%s | Öztunç Motor",
+    default: "Öztunc Motor | Düzce Motosiklet Satış ve Servis",
+    template: "%s | Öztunc Motor",
   },
   description: "Düzce’de motosiklet satış ve servis hizmetlerini tek noktada keşfedin.",
-  applicationName: "Öztunç Motor",
+  applicationName: "Öztunc Motor",
   formatDetection: { telephone: false },
 };
 

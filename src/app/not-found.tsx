@@ -5,7 +5,7 @@ export default function NotFound() {
   return (
     <main className="on-dark flex min-h-dvh flex-col bg-ink text-white">
       <div className="container-x py-6">
-        <Link href="/" aria-label="Öztunç Motor ana sayfa" className="inline-block rounded">
+        <Link href="/" aria-label="Öztunc Motor ana sayfa" className="inline-block rounded">
           <Logo />
         </Link>
       </div>

@@ -1,6 +1,6 @@
-# Öztunç Motor — Motosiklet Satış ve Servis Sitesi
+# Öztunc Motor — Motosiklet Satış ve Servis Sitesi
 
-Öztunç Motor (Cedidiye Mah., Mimar Sinan Cad. No:75, 81020 Düzce) için motosiklet kataloğu, servis randevu sistemi ve yönetim paneli.
+Öztunc Motor (Cedidiye Mah., Mimar Sinan Cad. No:75, 81020 Düzce) için motosiklet kataloğu, servis randevu sistemi ve yönetim paneli.
 
 **Teknoloji:** Next.js 16 (App Router) · TypeScript · Tailwind CSS 4 · PostgreSQL · Prisma 7 · Zod · Vitest
 
@@ -87,6 +87,10 @@ npm run dev     # http://localhost:3000  ·  panel: http://localhost:3000/admin
 - Geliştirmede sitenin üstünde sarı bir “demo veri” uyarısı ve kartlarda **DEMO** etiketi görünür.
 - Üretimde (`NODE_ENV=production`) demo ürün, marka, kategori, hizmet ve görseller **hiç gösterilmez**; ürün yapılandırılmış verisi ve sitemap’e de girmez.
 - Panelde **Motosikletler → “Demo içeriği sil”** ile tek tıkla temizlenir.
+
+### Yuki ve Motolux kataloğu
+
+`npx tsx scripts/seed-brand-catalog.ts` Yuki (yukimotor.com.tr) ve Motolux (motolux.com.tr) resmi kataloglarındaki modelleri teknik değer, renk ve ürün görselleriyle ekler. Veri `prisma/content/brand-catalog.json` dosyasındadır; betik tekrar çalıştırılabilir (slug'a göre günceller, panelden girilen fiyat ve stok korunur). Fiyatlar boş, stok “Sipariş üzerine” olarak gelir; yetkili satıcı/servis işaretleri panelden doğrulanmalıdır.
 
 Seed’in temel kısmı her ortamda çalışır ve yalnızca eksik kayıtları ekler: site ayarları, **kapalı** online randevu, kapalı haftalık saatler, doldurulması gereken politika şablonları ve **yayımlanmamış** servis hizmeti taslakları.
 
@@ -188,7 +192,7 @@ Aşağıdakiler henüz verilmedi. Site bunlar girilmeden **çalışmayan bağlan
 | Gerçekte verilen servis hizmetleri | Servis hizmetleri (taslak olarak hazır) | Hizmet listesi gösterilmez, randevu kapalı kalır |
 | Satılan markalar ve ürünler | Markalar / Motosikletler | Katalog boş durum gösterir |
 | Yetkili satıcı/servis olunan markalar | Markalar → “doğrulandı” işaretleri | Hiçbir yetki iddiası yazılmaz |
-| Logo | İletişim ve görseller | “ÖZTUNÇ MOTOR” yazı logosu kullanılır |
+| Logo | İletişim ve görseller | “ÖZTUNC MOTOR” yazı logosu kullanılır |
 | Hero, servis ve işletme fotoğrafları | İletişim ve görseller | İlgili görsel alanları olmadan düzen korunur |
 | Alan adı | `SITE_URL` | Canonical, sitemap URL’leri ve mutlak OG adresleri yayımlanmaz |
 | Politika metinlerindeki `[[…]]` alanları (ticari unvan, KVKK başvuru adresi, hizmet sağlayıcılar, saklama süresi, tarih) | Politika metinleri | Sitede sarı vurgulu ve “taslak” uyarılı görünür |

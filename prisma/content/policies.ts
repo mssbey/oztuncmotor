@@ -6,7 +6,7 @@ export const POLICY_PAGES = [
   {
     key: "kvkk",
     title: "KVKK Aydınlatma Metni",
-    body: `Bu aydınlatma metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”) uyarınca, veri sorumlusu sıfatıyla Öztunç Motor tarafından hazırlanmıştır.
+    body: `Bu aydınlatma metni, 6698 sayılı Kişisel Verilerin Korunması Kanunu (“KVKK”) uyarınca, veri sorumlusu sıfatıyla Öztunc Motor tarafından hazırlanmıştır.
 
 ## Veri sorumlusu
 - Unvan: [[İşletmenin resmi ticari unvanı]]
@@ -40,7 +40,7 @@ KVKK m.11 uyarınca verilerinizin işlenip işlenmediğini öğrenme, bilgi tale
   {
     key: "gizlilik",
     title: "Gizlilik Politikası",
-    body: `Bu politika, Öztunç Motor web sitesini kullanırken bilgilerinizin nasıl ele alındığını açıklar.
+    body: `Bu politika, Öztunc Motor web sitesini kullanırken bilgilerinizin nasıl ele alındığını açıklar.
 
 ## Topladığımız bilgiler
 Siteyi yalnızca gezmek için kişisel bilgi vermeniz gerekmez. Servis randevusu veya ürün bilgi formlarını doldurduğunuzda girdiğiniz bilgiler, talebinizi yanıtlamak için kaydedilir. Ayrıntılar için KVKK Aydınlatma Metni’ne bakınız.
@@ -66,7 +66,7 @@ Son güncelleme: [[tarih]]`,
   {
     key: "cerez",
     title: "Çerez Politikası",
-    body: `Öztunç Motor web sitesi, yalnızca sitenin çalışması için zorunlu olan çerezleri ve tarayıcı depolamasını kullanır.
+    body: `Öztunc Motor web sitesi, yalnızca sitenin çalışması için zorunlu olan çerezleri ve tarayıcı depolamasını kullanır.
 
 ## Kullanılan çerezler ve depolama
 - Yönetim paneli oturum çerezi: yalnızca yetkili personelin girişinde kullanılır; ziyaretçilere atanmaz.

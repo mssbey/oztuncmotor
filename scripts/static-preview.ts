@@ -22,7 +22,7 @@ const BASE = process.env.PREVIEW_SOURCE_URL ?? "http://localhost:3210";
 const ROOT = process.cwd();
 const OUT = path.join(ROOT, "preview");
 
-const CATALOG_KEYS = ["q", "marka", "kategori", "tip", "hacim", "stok", "min", "max", "sira"];
+const CATALOG_KEYS = ["q", "marka", "kategori", "tip", "hacim", "stok", "min", "max", "sira", "sayfa"];
 const SKIP_PREFIXES = ["/admin", "/api", "/_next", "/media", "/og", "/_v"];
 
 // Formları ve API çağrılarını tarayıcıda taklit eder (önizlemede veri kaydedilmez).
@@ -64,7 +64,7 @@ async function main() {
   const [brands, categories, bikes, services] = await Promise.all([
     db.brand.findMany({ where: { isDemo: false }, select: { slug: true } }),
     db.category.findMany({ where: { isDemo: false, published: true }, select: { slug: true } }),
-    db.motorcycle.findMany({ where: { isDemo: false, published: true }, select: { slug: true } }),
+    db.motorcycle.findMany({ where: { isDemo: false, published: true }, select: { slug: true, featured: true } }),
     db.serviceItem.findMany({ where: { isDemo: false, published: true, bookable: true }, select: { id: true } }),
   ]);
   await db.$disconnect();
@@ -108,12 +108,42 @@ async function main() {
   for (const v of ["stokta", "siparis", "tukendi"]) catalogVariant("stok", v);
   for (const v of ["fiyat-artan", "fiyat-azalan", "yeni"]) catalogVariant("sira", v);
 
+  // Katalog sayfalaması: filtresiz liste ve tek filtreli listelerin 2. ve sonraki sayfaları
+  const lastPage = (html: string) => Math.max(1, ...[...html.matchAll(/sayfa=(\d+)/g)].map((m) => Number(m[1])));
+  const paged: Variant[] = [];
+  const basePage = await fetchPage("/motosikletler");
+  for (let n = 2; n <= lastPage(basePage?.html ?? ""); n++)
+    paged.push({
+      source: "/motosikletler",
+      has: { sayfa: `^${n}$` },
+      missing: CATALOG_KEYS.filter((k) => k !== "sayfa"),
+      url: `/motosikletler?sayfa=${n}`,
+      file: `/_v/motosikletler-sayfa-${n}.html`,
+    });
+  for (const v of variants.filter((x) => x.source === "/motosikletler")) {
+    const [key, value] = Object.entries(v.has)[0];
+    const r = await fetchPage(v.url);
+    const plain = value.slice(1, -1);
+    for (let n = 2; n <= lastPage(r?.html ?? ""); n++)
+      paged.push({
+        source: "/motosikletler",
+        has: { [key]: value, sayfa: `^${n}$` },
+        missing: CATALOG_KEYS.filter((k) => k !== key && k !== "sayfa"),
+        url: `${v.url}&sayfa=${n}`,
+        file: `/_v/motosikletler-${key}-${plain}-sayfa-${n}.html`,
+      });
+  }
+  variants.unshift(...paged); // çok parametreli kurallar önce eşleşmeli
+
   const slugs = bikes.map((b) => b.slug);
   for (const a of slugs)
     variants.push({ source: "/karsilastir", has: { modeller: `^${a}$` }, missing: [], url: `/karsilastir?modeller=${a}`, file: `/_v/karsilastir-${a}.html` });
-  for (let i = 0; i < slugs.length; i++)
-    for (let j = i + 1; j < slugs.length; j++) {
-      const [a, b] = [slugs[i], slugs[j]];
+  // İkili karşılaştırmalar yalnızca öne çıkan modeller arasında üretilir: tüm ikililer
+  // (n²/2) hem çok büyük olur hem de Vercel'in yönlendirme kuralı sınırını aşar.
+  const pairSlugs = bikes.filter((b) => b.featured).map((b) => b.slug);
+  for (let i = 0; i < pairSlugs.length; i++)
+    for (let j = i + 1; j < pairSlugs.length; j++) {
+      const [a, b] = [pairSlugs[i], pairSlugs[j]];
       variants.push({
         source: "/karsilastir",
         has: { modeller: `^(${a}(,|%2C)${b}|${b}(,|%2C)${a})$` },
@@ -163,7 +193,7 @@ async function main() {
       source: v.source,
       has: Object.entries(v.has).map(([key, value]) => ({ type: "query", key, value })),
       ...(v.missing.length ? { missing: v.missing.map((key) => ({ type: "query", key })) } : {}),
-      destination: v.file.replace(/.html$/, ""), // cleanUrls: hedef uzantısız olmalı
+      destination: v.file.replace(/\.html$/, ""), // cleanUrls: hedef uzantısız olmalı
     })),
     ...[...rewritten].map((p) => ({ source: p, destination: `/_v/${p.slice(1)}` })),
   ];

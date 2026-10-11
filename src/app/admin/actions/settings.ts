@@ -135,7 +135,7 @@ export async function saveContactSettings(_p: ActionState, fd: FormData): Promis
 export async function saveContentSettings(_p: ActionState, fd: FormData): Promise<ActionState> {
   return run("settings", async () => {
     const data = {
-      heroTitle: str(fd, "heroTitle") || "Yolun başı.\nÖztunç Motor.",
+      heroTitle: str(fd, "heroTitle") || "Yolun başı.\nÖztunc Motor.",
       heroText: str(fd, "heroText").slice(0, 300),
       heroLocation: str(fd, "heroLocation").slice(0, 80),
       serviceTitle: str(fd, "serviceTitle") || "Motoruna iyi bak.\nYola güvenle devam et.",

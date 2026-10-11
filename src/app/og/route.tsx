@@ -26,14 +26,14 @@ export async function GET() {
       >
         <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
           <div style={{ width: 12, height: 48, background: "#D62828", transform: "skewX(-12deg)" }} />
-          <div style={{ fontSize: 44, letterSpacing: 2 }}>ÖZTUNÇ MOTOR</div>
+          <div style={{ fontSize: 44, letterSpacing: 2 }}>ÖZTUNC MOTOR</div>
         </div>
         <div style={{ display: "flex", flexDirection: "column", fontSize: 128, lineHeight: 0.9 }}>
           <div style={{ display: "flex" }}>
             YOLUN BAŞI<span style={{ color: "#D62828" }}>.</span>
           </div>
           <div style={{ display: "flex" }}>
-            ÖZTUNÇ MOTOR<span style={{ color: "#D62828" }}>.</span>
+            ÖZTUNC MOTOR<span style={{ color: "#D62828" }}>.</span>
           </div>
         </div>
         <div style={{ fontSize: 36, color: "#A6ABB2", letterSpacing: 1 }}>DÜZCE MOTOSİKLET SATIŞ VE SERVİS</div>

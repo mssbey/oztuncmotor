@@ -15,7 +15,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: seo?.title || "Servis Randevusu",
     description:
       seo?.description ||
-      "Öztunç Motor Düzce servisinden üç adımda online randevu talebi oluşturun: motosiklet ve işlem, tarih ve saat, iletişim bilgileri.",
+      "Öztunc Motor Düzce servisinden üç adımda online randevu talebi oluşturun: motosiklet ve işlem, tarih ve saat, iletişim bilgileri.",
     path: "/servis-randevusu",
   });
 }

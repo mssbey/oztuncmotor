@@ -14,7 +14,7 @@ export async function generateMetadata(): Promise<Metadata> {
     title: seo?.title || "İletişim ve Konum",
     description:
       seo?.description ||
-      "Öztunç Motor iletişim ve konum bilgileri: Cedidiye Mahallesi, Mimar Sinan Caddesi No:75, Düzce. Yol tarifi alın veya mesaj bırakın.",
+      "Öztunc Motor iletişim ve konum bilgileri: Cedidiye Mahallesi, Mimar Sinan Caddesi No:75, Düzce. Yol tarifi alın veya mesaj bırakın.",
     path: "/iletisim",
   });
 }

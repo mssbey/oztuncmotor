@@ -81,7 +81,7 @@ export function Header({ logo, phoneHref, phoneLabel }: Props) {
           compact ? "h-16" : "h-[4.5rem] lg:h-[5.5rem]"
         }`}
       >
-        <Link href="/" className="shrink-0 rounded" aria-label="Öztunç Motor ana sayfa">
+        <Link href="/" className="shrink-0 rounded" aria-label="Öztunc Motor ana sayfa">
           <Logo logo={logo} compact={compact} />
         </Link>
 
@@ -90,16 +90,17 @@ export function Header({ logo, phoneHref, phoneLabel }: Props) {
             {NAV_ITEMS.map((item) => {
               const active = isActive(pathname, item.href);
               return (
-                <li key={item.href}>
+                // Dar masaüstünde logo zaten ana sayfaya gider; menüye yer açmak için gizlenir
+                <li key={item.href} className={item.href === "/" ? "hidden xl:block" : undefined}>
                   <Link
                     href={item.href}
                     aria-current={active ? "page" : undefined}
-                    className={`relative inline-flex h-11 items-center px-3.5 text-[0.9375rem] font-semibold transition-colors ${
+                    className={`relative inline-flex h-11 items-center whitespace-nowrap px-2.5 text-[0.9375rem] font-semibold transition-colors xl:px-3.5 ${
                       active ? "text-white" : "text-white/70 hover:text-white"
                     }`}
                   >
                     {item.label}
-                    {active && <span aria-hidden className="absolute inset-x-3.5 bottom-0 h-0.5 bg-accent" />}
+                    {active && <span aria-hidden className="absolute inset-x-2.5 bottom-0 h-0.5 bg-accent xl:inset-x-3.5" />}
                   </Link>
                 </li>
               );
@@ -119,7 +120,7 @@ export function Header({ logo, phoneHref, phoneLabel }: Props) {
           )}
           <Link
             href="/servis-randevusu"
-            className={`btn btn-primary hidden sm:inline-flex ${compact ? "btn-sm" : ""}`}
+            className={`btn btn-primary hidden whitespace-nowrap sm:inline-flex ${compact ? "btn-sm" : ""}`}
           >
             Servis Randevusu
           </Link>

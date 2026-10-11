@@ -13,6 +13,8 @@ const PAGES = [
   { key: "motorcycles", label: "Motosikletler", path: "/motosikletler" },
   { key: "service", label: "Servis", path: "/servis" },
   { key: "appointment", label: "Servis randevusu", path: "/servis-randevusu" },
+  { key: "parts", label: "Yedek parça", path: "/yedek-parca" },
+  { key: "accessories", label: "Aksesuar", path: "/aksesuar" },
   { key: "about", label: "Hakkımızda", path: "/hakkimizda" },
   { key: "contact", label: "İletişim", path: "/iletisim" },
 ];

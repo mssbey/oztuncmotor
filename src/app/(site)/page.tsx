@@ -1,116 +1,175 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Pin } from "@/components/icons";
+import { ArrowRight, Bike, Gear, Helmet, Pin, Wrench } from "@/components/icons";
 import { MotorcycleCard } from "@/components/catalog/MotorcycleCard";
+import { BrandMarquee } from "@/components/site/BrandMarquee";
+import { HeroShowroom, type HeroSlide } from "@/components/site/HeroShowroom";
+import { BUSINESS_LINES, type BusinessLineKey } from "@/components/site/business-lines";
 import { ContactDetails } from "@/components/site/ContactDetails";
 import { MapEmbed } from "@/components/site/MapEmbed";
 import { BusinessJsonLd } from "@/components/site/JsonLd";
 import { MultilineTitle } from "@/components/ui/MultilineTitle";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { buildMetadata } from "@/lib/seo";
-import { getFeaturedMotorcycles, getVisibleCategories } from "@/server/catalog";
+import { specSummary } from "@/lib/specs";
+import {
+  getBrandLineup,
+  getCardsBySlugs,
+  getCatalogStats,
+  getFeaturedMotorcycles,
+  getShowcase,
+  getVisibleBrands,
+  getVisibleCategories,
+} from "@/server/catalog";
 import { getPublicHours, getPublishedServices, getSeo, getSiteSettings } from "@/server/site";
 
 export async function generateMetadata(): Promise<Metadata> {
   const [seo, settings] = await Promise.all([getSeo("home"), getSiteSettings()]);
   return buildMetadata({
-    title: seo?.title || "Öztunç Motor | Düzce Motosiklet Satış ve Servis",
+    title: seo?.title || "Öztunc Motor | Düzce Motosiklet Satış ve Servis",
     description:
       seo?.description ||
-      "Düzce Cedidiye’deki Öztunç Motor’da motosiklet modellerini inceleyin, fiyat ve stok bilgisi alın, servis randevunuzu online oluşturun.",
+      "Düzce Cedidiye’deki Öztunc Motor’da motosiklet modellerini inceleyin, fiyat ve stok bilgisi alın, servis randevunuzu online oluşturun.",
     path: "/",
     image: settings.hero,
   });
 }
 
+const LINE_ICONS: Record<BusinessLineKey, typeof Bike> = { satis: Bike, servis: Wrench, "yedek-parca": Gear, aksesuar: Helmet };
+
+// Çalışılan markalar: katalogda yayında ürünü varsa ana sayfada gösterilir
+const PARTNER_BRANDS = ["yuki", "motolux"];
+
+// Giriş sahnesinde sırayla dönen modeller (şeffaf zeminli ürün görselleri sahnede en iyi durur)
+const HERO_MODELS = ["yuki-taro-gp1", "yuki-defender-maxi-adv", "yuki-victor", "yuki-yk-50-spark-new", "yuki-thor-utv-400", "yuki-hammer-50"];
+
+// Marka şeridinde akan modeller (iki marka dönüşümlü; yayından kalkan model atlanır)
+const MARQUEE_MODELS = [
+  "yuki-taro-gp1", "motolux-ceo-125", "yuki-hammer-50", "motolux-rossi-rs-125", "yuki-victor", "motolux-macchiato-125",
+  "yuki-defender-maxi-adv", "motolux-drift-200", "yuki-yk-50-spark-new", "motolux-cortado-200-off", "yuki-thor-utv-400",
+  "motolux-vintage-s", "yuki-risotto-125", "motolux-americano-125", "yuki-taro-gp2", "motolux-mw-46", "yuki-cyber", "yuki-gusto",
+];
+
 const DEFAULT_ABOUT =
-  "Öztunç Motor, Düzce Cedidiye’de motosiklet satışı ve servis hizmeti veren bir işletmedir. Showroom’da modelleri yakından inceleyebilir, teknik özellikleri, fiyat ve teslim seçeneklerini ekibimizle yüz yüze konuşabilirsiniz.\n\nServis tarafında motosikletinizi randevuyla kabul ediyor, yapılacak işlemi önceden sizinle netleştiriyoruz. Amacımız, ister ilk motosikletini alan biri olun ister her gün yolda olan bir sürücü, aynı açıklıkla ve özenle hizmet vermek.";
+  "Öztunc Motor, Düzce Cedidiye’de motosiklet satışı ve servis hizmeti veren bir işletmedir. Showroom’da modelleri yakından inceleyebilir, teknik özellikleri, fiyat ve teslim seçeneklerini ekibimizle yüz yüze konuşabilirsiniz.\n\nServis tarafında motosikletinizi randevuyla kabul ediyor, yapılacak işlemi önceden sizinle netleştiriyoruz. Amacımız, ister ilk motosikletini alan biri olun ister her gün yolda olan bir sürücü, aynı açıklıkla ve özenle hizmet vermek.";
 
 export default async function HomePage() {
-  const [settings, categories, featured, services, hours] = await Promise.all([
+  const [settings, categories, featured, services, hours, brands, lineup, marqueeItems, heroCards, stats] = await Promise.all([
     getSiteSettings(),
     getVisibleCategories(),
     getFeaturedMotorcycles(6),
     getPublishedServices(),
     getPublicHours(),
+    getVisibleBrands(),
+    getBrandLineup(PARTNER_BRANDS),
+    getShowcase(MARQUEE_MODELS),
+    getCardsBySlugs(HERO_MODELS),
+    getCatalogStats(),
   ]);
+  const partners = brands.filter((b) => PARTNER_BRANDS.includes(b.slug));
   const hero = settings.hero;
-  const cinematicHero = hero?.url === "/images/hero-cinematic.webp";
+  const heroSlides: HeroSlide[] = heroCards.flatMap((c) =>
+    c.image
+      ? [{ slug: c.slug, brand: c.brand, model: c.model, category: c.category, image: c.image, specs: specSummary(c.specs) }]
+      : [],
+  );
   const aboutParagraphs = (settings.aboutText || DEFAULT_ABOUT).split(/\n{2,}/);
 
   return (
     <>
       <BusinessJsonLd settings={settings} hours={hours} />
 
-      {/* ── Giriş ─────────────────────────────────────────── */}
-      <section aria-labelledby="hero-baslik" className="on-dark relative isolate overflow-hidden bg-ink text-white">
-        {hero && (
-          <div aria-hidden className={`absolute inset-0 -z-10 overflow-hidden ${cinematicHero ? "" : "lg:left-[38%]"}`}>
-            <Image
-              src={hero.url}
-              alt=""
-              fill
-              preload
-              quality={85}
-              sizes={cinematicHero ? "100vw" : "(min-width: 1024px) 62vw, 100vw"}
-              className={`hero-photo object-cover ${cinematicHero ? "object-[85%_center] lg:object-contain lg:object-right" : "object-[32%_center] lg:object-left"}`}
-            />
-            {/* Metnin okunması için soldan ve alttan koyulaşan geçiş */}
-            <div className={`absolute inset-0 bg-[linear-gradient(0deg,var(--color-ink)_6%,rgb(17_19_21/0.84)_50%,rgb(17_19_21/0.15)_100%)] ${cinematicHero ? "lg:bg-[linear-gradient(90deg,rgb(17_19_21/0.95)_0%,rgb(17_19_21/0.72)_30%,rgb(17_19_21/0.2)_54%,transparent_72%)]" : "lg:-left-1 lg:bg-[linear-gradient(90deg,var(--color-ink)_0%,var(--color-ink)_2%,rgb(17_19_21/0.6)_16%,rgb(17_19_21/0)_36%)]"}`} />
-            <div className="absolute inset-x-0 bottom-0 hidden h-40 bg-gradient-to-t from-ink to-transparent lg:block" />
+      {/* ── Giriş: showroom sahnesi ──────────────────────── */}
+      <HeroShowroom slides={heroSlides} background={hero?.url ?? null}>
+        <div className="animate-fade-up">
+          <p className="flex items-center gap-3 text-[0.8125rem] font-bold uppercase tracking-[0.18em] text-white/75">
+            <span aria-hidden className="h-[2px] w-8 bg-accent" />
+            Satış · Servis · Yedek Parça · Aksesuar
+          </p>
+          <h1
+            id="hero-baslik"
+            className="mt-5 font-display text-[3.25rem] font-bold uppercase leading-[0.88] tracking-[0.005em] xs:text-[4rem] sm:text-[5.25rem] xl:text-[6.5rem]"
+          >
+            <MultilineTitle text={settings.heroTitle} />
+          </h1>
+          <p className="mt-6 max-w-lg text-lg leading-relaxed text-white/75 sm:text-xl">{settings.heroText}</p>
+          <div className="mt-9 flex flex-col gap-3 xs:flex-row xs:flex-wrap">
+            <Link href="/motosikletler" className="btn btn-primary px-7 shadow-[0_12px_30px_-10px_rgb(214_40_40/0.7)]">
+              Motosikletleri İncele <ArrowRight size={18} />
+            </Link>
+            <Link href="/servis-randevusu" className="btn btn-outline-light px-7 backdrop-blur-sm">
+              Servis Randevusu Al
+            </Link>
           </div>
-        )}
-
-        <div className="container-x flex min-h-[min(44rem,calc(100dvh-4rem))] flex-col justify-end pb-10 pt-40 sm:pt-56 lg:min-h-[min(48rem,calc(100dvh-5.5rem))] lg:justify-center lg:pb-36 lg:pt-20">
-          <div className="animate-fade-up max-w-2xl">
-            <p className="flex items-center gap-3 text-[0.8125rem] font-bold uppercase tracking-[0.18em] text-white/75">
-              <span aria-hidden className="h-[2px] w-8 bg-accent" />
-              Motosiklet Satış &amp; Servis
-            </p>
-            <h1
-              id="hero-baslik"
-              className="mt-5 font-display text-[3.25rem] font-bold uppercase leading-[0.9] tracking-[0.005em] xs:text-[4rem] sm:text-[5.25rem] xl:text-[6.25rem]"
-            >
-              <MultilineTitle text={settings.heroTitle} />
-            </h1>
-            <p className="mt-6 max-w-lg text-lg leading-relaxed text-white/80 sm:text-xl">{settings.heroText}</p>
-            <div className="mt-9 flex flex-col gap-3 xs:flex-row xs:flex-wrap">
-              <Link href="/motosikletler" className="btn btn-primary px-7">
-                Motosikletleri İncele <ArrowRight size={18} />
-              </Link>
-              <Link href="/servis-randevusu" className="btn btn-outline-light px-7 backdrop-blur-sm">
-                Servis Randevusu Al
-              </Link>
+          <dl className="mt-10 flex flex-wrap gap-x-8 gap-y-4 border-t border-white/10 pt-6">
+            <div>
+              <dt className="sr-only">Katalogdaki model</dt>
+              <dd className="font-display text-4xl font-bold leading-none tabular-nums">{stats.models}</dd>
+              <dd aria-hidden className="mt-1 text-xs font-semibold uppercase tracking-[0.14em] text-white/55">Model</dd>
             </div>
-            <p className="mt-8 flex items-center gap-2 text-sm font-semibold text-white/70">
-              <Pin size={16} className="text-accent" />
-              {settings.heroLocation}
-            </p>
-          </div>
+            <div>
+              <dt className="sr-only">Araç kategorisi</dt>
+              <dd className="font-display text-4xl font-bold leading-none tabular-nums">{stats.categories}</dd>
+              <dd aria-hidden className="mt-1 text-xs font-semibold uppercase tracking-[0.14em] text-white/55">Kategori</dd>
+            </div>
+            {lineup.brands.length > 0 && (
+              <div>
+                <dt className="sr-only">Çalıştığımız markalar</dt>
+                <dd className="font-display text-4xl font-bold uppercase leading-none">{lineup.brands.map((b) => b.name).join(" · ")}</dd>
+                <dd aria-hidden className="mt-1 text-xs font-semibold uppercase tracking-[0.14em] text-white/55">Markalar</dd>
+              </div>
+            )}
+          </dl>
+          <p className="mt-6 flex items-center gap-2 text-sm font-semibold text-white/60">
+            <Pin size={16} className="text-accent" />
+            {settings.heroLocation}
+          </p>
         </div>
+      </HeroShowroom>
 
-        {/* Kategorilere hızlı geçiş */}
-        {categories.length > 0 && (
-          <nav aria-label="Kategoriler" className="relative border-t border-white/10 bg-ink/70 backdrop-blur-md lg:absolute lg:inset-x-0 lg:bottom-0">
-            <ul className="container-x grid grid-cols-2 lg:grid-cols-4">
-              {categories.slice(0, 4).map((c, i) => (
-                <li key={c.id} className={`border-white/10 ${i % 2 ? "border-l" : ""} ${i >= 2 ? "border-t lg:border-t-0" : ""} ${i === 2 ? "lg:border-l" : ""}`}>
+      {/* ── Hizmetler ─────────────────────────────────────── */}
+      <section aria-labelledby="hizmet-baslik" className="border-b border-line bg-white">
+        <div className="container-x py-16 lg:py-20">
+          <SectionHeading
+            eyebrow="Hizmetlerimiz"
+            id="hizmet-baslik"
+            title="Satıştan servise, tek adres"
+            text={
+              partners.length > 0 ? (
+                <>
+                  {partners.map((b) => b.name).join(" ve ")} modellerinin satışı, servisi, orijinal yedek parçası ve
+                  aksesuarları Düzce Cedidiye’deki showroom’umuzda.
+                </>
+              ) : (
+                "Motosiklet satışı, servisi, yedek parça ve aksesuar ihtiyaçlarınız Düzce Cedidiye’deki showroom’umuzda."
+              )
+            }
+          />
+          <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {BUSINESS_LINES.map((line) => {
+              const Icon = LINE_ICONS[line.key];
+              return (
+                <li key={line.key}>
                   <Link
-                    href={`/motosikletler?kategori=${c.slug}`}
-                    className={`group flex items-center justify-between gap-3 px-3 py-5 transition-colors hover:bg-white/[0.04] sm:px-6 lg:py-6 ${i === 0 ? "lg:pl-0" : ""}`}
+                    href={line.href}
+                    className="group card flex h-full flex-col p-6 transition-shadow hover:shadow-[var(--shadow-card-hover)]"
                   >
-                    <span>
-                      <span className="block font-display text-lg font-bold uppercase leading-tight tracking-wide sm:text-xl">{c.name}</span>
-                      <span className="mt-0.5 block text-xs font-semibold tabular-nums text-white/55 sm:text-sm">{c._count.motorcycles} model</span>
+                    <span className="inline-flex h-12 w-12 items-center justify-center rounded-lg bg-ink text-accent">
+                      <Icon size={26} />
                     </span>
-                    <ArrowRight size={18} className="shrink-0 text-accent transition-transform group-hover:translate-x-1" />
+                    <h3 className="font-display mt-5 text-3xl font-bold uppercase leading-none">{line.title}</h3>
+                    <p className="mt-3 text-[0.9375rem] leading-relaxed text-muted">{line.text}</p>
+                    <span className="link-arrow mt-auto pt-5 text-sm">
+                      {line.cta} <ArrowRight size={16} className="text-accent" />
+                    </span>
                   </Link>
                 </li>
-              ))}
-            </ul>
-          </nav>
-        )}
+              );
+            })}
+          </ul>
+          <BrandMarquee brands={lineup.brands} items={marqueeItems} />
+        </div>
       </section>
 
       {/* ── Kategoriler ───────────────────────────────────── */}
@@ -198,7 +257,7 @@ export default async function HomePage() {
             <div className="relative aspect-[4/3] overflow-hidden rounded-[10px] bg-surface lg:aspect-[5/6]">
               <Image
                 src={settings.serviceImage.url}
-                alt={settings.serviceImage.alt || "Öztunç Motor servis atölyesi"}
+                alt={settings.serviceImage.alt || "Öztunc Motor servis atölyesi"}
                 fill
                 sizes="(min-width: 1024px) 45vw, 100vw"
                 className="object-cover"
@@ -260,7 +319,7 @@ export default async function HomePage() {
               >
                 <Image
                   src={settings.about1.url}
-                  alt={settings.about1.alt || "Öztunç Motor showroom"}
+                  alt={settings.about1.alt || "Öztunc Motor showroom"}
                   fill
                   sizes="(min-width: 1024px) 35vw, 66vw"
                   className="object-cover"
@@ -270,7 +329,7 @@ export default async function HomePage() {
                 <div className="relative col-span-2 mt-16 aspect-[3/5] overflow-hidden rounded-[10px]">
                   <Image
                     src={settings.about2.url}
-                    alt={settings.about2.alt || "Öztunç Motor servis"}
+                    alt={settings.about2.alt || "Öztunc Motor servis"}
                     fill
                     sizes="(min-width: 1024px) 18vw, 33vw"
                     className="object-cover"
@@ -280,7 +339,7 @@ export default async function HomePage() {
             </div>
           )}
           <div className={settings.about1 ? "" : "max-w-3xl"}>
-            <p className="eyebrow">Öztunç Motor</p>
+            <p className="eyebrow">Öztunc Motor</p>
             <h2
               id="hakkimizda-baslik"
               className="font-display mt-3 text-[2.5rem] font-bold uppercase leading-[0.95] sm:text-5xl lg:text-[3.5rem]"

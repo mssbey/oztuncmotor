@@ -32,6 +32,2150 @@
       "has": [
         {
           "type": "query",
+          "key": "sayfa",
+          "value": "^2$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-sayfa-2"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^3$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-sayfa-3"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^4$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-sayfa-4"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^5$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-sayfa-5"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^6$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-sayfa-6"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^7$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-sayfa-7"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "marka",
+          "value": "^yuki$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^2$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-marka-yuki-sayfa-2"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "marka",
+          "value": "^yuki$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^3$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-marka-yuki-sayfa-3"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "marka",
+          "value": "^motolux$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^2$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-marka-motolux-sayfa-2"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "marka",
+          "value": "^motolux$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^3$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-marka-motolux-sayfa-3"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "kategori",
+          "value": "^scooter$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^2$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-kategori-scooter-sayfa-2"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "kategori",
+          "value": "^uc-tekerlekli$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^2$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-kategori-uc-tekerlekli-sayfa-2"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "tip",
+          "value": "^benzinli$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^2$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-tip-benzinli-sayfa-2"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "tip",
+          "value": "^benzinli$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^3$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-tip-benzinli-sayfa-3"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "tip",
+          "value": "^benzinli$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^4$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-tip-benzinli-sayfa-4"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "tip",
+          "value": "^elektrikli$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^2$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-tip-elektrikli-sayfa-2"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "tip",
+          "value": "^elektrikli$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^3$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-tip-elektrikli-sayfa-3"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "tip",
+          "value": "^elektrikli$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^4$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-tip-elektrikli-sayfa-4"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "hacim",
+          "value": "^0-125$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^2$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-hacim-0-125-sayfa-2"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "stok",
+          "value": "^siparis$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^2$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-stok-siparis-sayfa-2"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "stok",
+          "value": "^siparis$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^3$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-stok-siparis-sayfa-3"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "stok",
+          "value": "^siparis$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^4$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-stok-siparis-sayfa-4"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "stok",
+          "value": "^siparis$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^5$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-stok-siparis-sayfa-5"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "stok",
+          "value": "^siparis$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^6$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-stok-siparis-sayfa-6"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "stok",
+          "value": "^siparis$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^7$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        }
+      ],
+      "destination": "/_v/motosikletler-stok-siparis-sayfa-7"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^fiyat-artan$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^2$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-fiyat-artan-sayfa-2"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^fiyat-artan$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^3$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-fiyat-artan-sayfa-3"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^fiyat-artan$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^4$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-fiyat-artan-sayfa-4"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^fiyat-artan$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^5$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-fiyat-artan-sayfa-5"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^fiyat-artan$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^6$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-fiyat-artan-sayfa-6"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^fiyat-artan$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^7$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-fiyat-artan-sayfa-7"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^fiyat-azalan$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^2$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-fiyat-azalan-sayfa-2"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^fiyat-azalan$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^3$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-fiyat-azalan-sayfa-3"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^fiyat-azalan$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^4$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-fiyat-azalan-sayfa-4"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^fiyat-azalan$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^5$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-fiyat-azalan-sayfa-5"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^fiyat-azalan$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^6$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-fiyat-azalan-sayfa-6"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^fiyat-azalan$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^7$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-fiyat-azalan-sayfa-7"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^yeni$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^2$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-yeni-sayfa-2"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^yeni$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^3$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-yeni-sayfa-3"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^yeni$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^4$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-yeni-sayfa-4"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^yeni$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^5$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-yeni-sayfa-5"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^yeni$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^6$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-yeni-sayfa-6"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "sira",
+          "value": "^yeni$"
+        },
+        {
+          "type": "query",
+          "key": "sayfa",
+          "value": "^7$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        }
+      ],
+      "destination": "/_v/motosikletler-sira-yeni-sayfa-7"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
           "key": "marka",
           "value": "^honda$"
         }
@@ -68,6 +2212,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-marka-honda"
@@ -113,6 +2261,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-marka-yamaha"
@@ -158,6 +2310,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-marka-kawasaki"
@@ -203,6 +2359,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-marka-ktm"
@@ -248,6 +2408,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-marka-bmw-motorrad"
@@ -293,6 +2457,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-marka-vespa"
@@ -338,9 +2506,356 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-marka-super-soco"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "marka",
+          "value": "^yuki$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
+        }
+      ],
+      "destination": "/_v/motosikletler-marka-yuki"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "marka",
+          "value": "^motolux$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "kategori"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
+        }
+      ],
+      "destination": "/_v/motosikletler-marka-motolux"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "kategori",
+          "value": "^elektrikli-otomobil$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
+        }
+      ],
+      "destination": "/_v/motosikletler-kategori-elektrikli-otomobil"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "kategori",
+          "value": "^e-bike$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
+        }
+      ],
+      "destination": "/_v/motosikletler-kategori-e-bike"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "kategori",
+          "value": "^engelli-araclari$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
+        }
+      ],
+      "destination": "/_v/motosikletler-kategori-engelli-araclari"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "kategori",
+          "value": "^cocuk$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
+        }
+      ],
+      "destination": "/_v/motosikletler-kategori-cocuk"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "kategori",
+          "value": "^jet-ski$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
+        }
+      ],
+      "destination": "/_v/motosikletler-kategori-jet-ski"
     },
     {
       "source": "/motosikletler",
@@ -383,9 +2898,111 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-kategori-scooter"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "kategori",
+          "value": "^elektrikli$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
+        }
+      ],
+      "destination": "/_v/motosikletler-kategori-elektrikli"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "kategori",
+          "value": "^cub$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
+        }
+      ],
+      "destination": "/_v/motosikletler-kategori-cub"
     },
     {
       "source": "/motosikletler",
@@ -428,6 +3045,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-kategori-sehir"
@@ -473,6 +3094,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-kategori-touring"
@@ -483,7 +3108,7 @@
         {
           "type": "query",
           "key": "kategori",
-          "value": "^elektrikli$"
+          "value": "^enduro-cross$"
         }
       ],
       "missing": [
@@ -518,9 +3143,111 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
-      "destination": "/_v/motosikletler-kategori-elektrikli"
+      "destination": "/_v/motosikletler-kategori-enduro-cross"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "kategori",
+          "value": "^atv-utv$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
+        }
+      ],
+      "destination": "/_v/motosikletler-kategori-atv-utv"
+    },
+    {
+      "source": "/motosikletler",
+      "has": [
+        {
+          "type": "query",
+          "key": "kategori",
+          "value": "^uc-tekerlekli$"
+        }
+      ],
+      "missing": [
+        {
+          "type": "query",
+          "key": "q"
+        },
+        {
+          "type": "query",
+          "key": "marka"
+        },
+        {
+          "type": "query",
+          "key": "tip"
+        },
+        {
+          "type": "query",
+          "key": "hacim"
+        },
+        {
+          "type": "query",
+          "key": "stok"
+        },
+        {
+          "type": "query",
+          "key": "min"
+        },
+        {
+          "type": "query",
+          "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
+        }
+      ],
+      "destination": "/_v/motosikletler-kategori-uc-tekerlekli"
     },
     {
       "source": "/motosikletler",
@@ -563,6 +3290,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-tip-benzinli"
@@ -608,6 +3339,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-tip-elektrikli"
@@ -653,6 +3388,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-hacim-0-125"
@@ -698,6 +3437,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-hacim-126-250"
@@ -743,6 +3486,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-hacim-251-500"
@@ -788,6 +3535,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-hacim-501-900"
@@ -833,6 +3584,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-hacim-901-"
@@ -878,6 +3633,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-stok-stokta"
@@ -923,6 +3682,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-stok-siparis"
@@ -968,6 +3731,10 @@
         {
           "type": "query",
           "key": "sira"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-stok-tukendi"
@@ -1013,6 +3780,10 @@
         {
           "type": "query",
           "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-sira-fiyat-artan"
@@ -1058,6 +3829,10 @@
         {
           "type": "query",
           "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-sira-fiyat-azalan"
@@ -1103,6 +3878,10 @@
         {
           "type": "query",
           "key": "max"
+        },
+        {
+          "type": "query",
+          "key": "sayfa"
         }
       ],
       "destination": "/_v/motosikletler-sira-yeni"
@@ -1124,10 +3903,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^yamaha-nmax-155$"
+          "value": "^yamaha-xmax-300$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155"
+      "destination": "/_v/karsilastir-yamaha-xmax-300"
     },
     {
       "source": "/karsilastir",
@@ -1135,10 +3914,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^yamaha-xmax-300$"
+          "value": "^yamaha-nmax-155$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300"
+      "destination": "/_v/karsilastir-yamaha-nmax-155"
     },
     {
       "source": "/karsilastir",
@@ -1157,10 +3936,54 @@
         {
           "type": "query",
           "key": "modeller",
+          "value": "^honda-nc750x$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-nc750x"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^honda-crf1100l-africa-twin$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^honda-rebel-500$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-rebel-500"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
           "value": "^honda-cb650r$"
         }
       ],
       "destination": "/_v/karsilastir-honda-cb650r"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yamaha-tenere-700$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-tenere-700"
     },
     {
       "source": "/karsilastir",
@@ -1201,54 +4024,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^honda-rebel-500$"
-        }
-      ],
-      "destination": "/_v/karsilastir-honda-rebel-500"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^yamaha-tenere-700$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-tenere-700"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^honda-crf1100l-africa-twin$"
-        }
-      ],
-      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
           "value": "^bmw-r-1300-gs$"
         }
       ],
       "destination": "/_v/karsilastir-bmw-r-1300-gs"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^honda-nc750x$"
-        }
-      ],
-      "destination": "/_v/karsilastir-honda-nc750x"
     },
     {
       "source": "/karsilastir",
@@ -1267,10 +4046,1506 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(honda-pcx-125(,|%2C)yamaha-nmax-155|yamaha-nmax-155(,|%2C)honda-pcx-125)$"
+          "value": "^motolux-rossi-rs-125$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-pcx-125--yamaha-nmax-155"
+      "destination": "/_v/karsilastir-motolux-rossi-rs-125"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-hammer-50$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-hammer-50"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-ceo-110$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-ceo-110"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-americano-125$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-americano-125"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-ceo-125$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-ceo-125"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-ist-34$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-ist-34"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-macchiato-125$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-macchiato-125"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-mcx-125$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-mcx-125"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-mw-46$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-mw-46"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-nirvana-pro$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-nirvana-pro"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-ragner-rt2$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-ragner-rt2"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-explorer-250-maxi-scooter$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-explorer-250-maxi-scooter"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-rossi-fx-50-2$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-rossi-fx-50-2"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-rossirs-50$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-rossirs-50"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-sst-125$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-sst-125"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-vegas125$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-vegas125"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-vintage-s$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-vintage-s"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-wow-150$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-wow-150"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-bellini-s$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-bellini-s"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-casper-pro$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-casper-pro"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-defender-maxi-adv$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-defender-maxi-adv"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-duty-s$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-duty-s"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-risotto-125$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-risotto-125"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-risotto-s-50$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-risotto-s-50"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-gentle$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-gentle"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-hammer-125$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-hammer-125"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-huracan$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-huracan"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-risotto-50$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-risotto-50"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-yk-41-willys$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-41-willys"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-mz46-t$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-mz46-t"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-yk-50-spark-new$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-50-spark-new"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-alf-plus$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-alf-plus"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-alf-pro$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-alf-pro"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-dubai$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-dubai"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-eceo$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-eceo"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-e-vintage$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-e-vintage"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-super-54$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-super-54"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-gogo$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-gogo"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-latte$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-latte"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-valencia$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-valencia"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-m111$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-m111"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-mtx01$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-mtx01"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-pitton6000$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-pitton6000"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-pitton-9000$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-pitton-9000"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-best$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-best"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-lucky-s$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-lucky-s"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-spark-pro$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-spark-pro"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-yk-41-willys-pro$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-41-willys-pro"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-yk-43-galaxy-s$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-43-galaxy-s"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-yk-48-tron$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-48-tron"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-yk-50-spark$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-50-spark"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-yk-53-windy$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-53-windy"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-africa-wolf-2$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-africa-wolf-2"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-mz46-a$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-mz46-a"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-gusto$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-gusto"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-solid$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-solid"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-taro-gp1$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-taro-gp1"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-cappadocia125$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-cappadocia125"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-taro-gp2$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-taro-gp2"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-drift-200$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-drift-200"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-c5-zr250$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-c5-zr250"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-chico-pro-2$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-chico-pro-2"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-donkey$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-donkey"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-hyosung-gv250dra$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-hyosung-gv250dra"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-kpt250$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-kpt250"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-tekken$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-tekken"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-ty125z-driver$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-ty125z-driver"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-victor$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-victor"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-cortado-200-off$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-cortado-200-off"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-crossover$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-crossover"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-utv-550$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-utv-550"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-dirtypaws-250-2t$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-dirtypaws-250-2t"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-dirtypaws-hj300-4t$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-dirtypaws-hj300-4t"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-dirtypaws-hj450-4t$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-dirtypaws-hj450-4t"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-dirtypaws-z300-2t$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-dirtypaws-z300-2t"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-victor-sport$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-victor-sport"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-m750-utv$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-m750-utv"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-xtank200$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-xtank200"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-x-tank-250$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-x-tank-250"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-x-tank-850$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-x-tank-850"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-cyber$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-cyber"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-hammer-200-pro$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-hammer-200-pro"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-hummer-200$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-hummer-200"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-sw570-t$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-sw570-t"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-thor-utv-400$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-thor-utv-400"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-tirex$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-tirex"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-tract-250$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-tract-250"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-cargo-44000-l-2$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-cargo-44000-l-2"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-cargo-52000-l$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-cargo-52000-l"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-fayton-fx-09$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-fayton-fx-09"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-cargo-54000$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-cargo-54000"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-fayton-8200$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-fayton-8200"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-fayton-8800$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-fayton-8800"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-fayton-fx-08$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-fayton-fx-08"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-fayton-fx-55$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-fayton-fx-55"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-ist-1453-s$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-ist-1453-s"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-fayton-fx-10-l$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-fayton-fx-10-l"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-fayton-fx-12$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-fayton-fx-12"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-fayton-fx-23$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-fayton-fx-23"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-fayton-fx-24$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-fayton-fx-24"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-fayton-fx-25$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-fayton-fx-25"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-fayton-fx-33$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-fayton-fx-33"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-fayton-fx-34$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-fayton-fx-34"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-ayder-250$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-ayder-250"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-aydos-150$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-aydos-150"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-mypad$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-mypad"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-toros$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-toros"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-yk-16-ilgaz-x$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-16-ilgaz-x"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-yk-56-pony$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-56-pony"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-yk-57-greta-pro$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-57-greta-pro"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-yk-60-ilgaz-plus$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-60-ilgaz-plus"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-yk-60-ilgaz-pro$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-60-ilgaz-pro"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-yk-61-caretta$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-61-caretta"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-yk-72-greta$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-72-greta"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-higo$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-higo"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-drift$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-drift"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-wow-01$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-wow-01"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-yt-a2-22$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-yt-a2-22"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-nitro-jet-ski$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-nitro-jet-ski"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-yt-a2-22-g$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-yt-a2-22-g"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-yt-a2-42$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-yt-a2-42"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-yt-a2-42-g$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-yt-a2-42-g"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-amy-lithium$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-amy-lithium"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-hector-pro$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-hector-pro"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-cityking-offroad$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-cityking-offroad"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-l-2-d-city-runner$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-l-2-d-city-runner"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-l2-city-runner$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-l2-city-runner"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-pars$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-pars"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-pars-x$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-pars-x"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-techno$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-techno"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-yk-44-mars$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-44-mars"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-jrwd1002$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-jrwd1002"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^yuki-my-friend-s$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-my-friend-s"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-fir-fir$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-fir-fir"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-mini-e-atv$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-mini-e-atv"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-mini-e-jeep$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-mini-e-jeep"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^motolux-x-tankmini$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-x-tankmini"
     },
     {
       "source": "/karsilastir",
@@ -1300,54 +5575,21 @@
         {
           "type": "query",
           "key": "modeller",
+          "value": "^(honda-pcx-125(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)honda-pcx-125)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-pcx-125--honda-crf1100l-africa-twin"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
           "value": "^(honda-pcx-125(,|%2C)honda-cb650r|honda-cb650r(,|%2C)honda-pcx-125)$"
         }
       ],
       "destination": "/_v/karsilastir-honda-pcx-125--honda-cb650r"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(honda-pcx-125(,|%2C)yamaha-mt-07|yamaha-mt-07(,|%2C)honda-pcx-125)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-honda-pcx-125--yamaha-mt-07"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(honda-pcx-125(,|%2C)kawasaki-z650|kawasaki-z650(,|%2C)honda-pcx-125)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-honda-pcx-125--kawasaki-z650"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(honda-pcx-125(,|%2C)ktm-390-duke|ktm-390-duke(,|%2C)honda-pcx-125)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-honda-pcx-125--ktm-390-duke"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(honda-pcx-125(,|%2C)honda-rebel-500|honda-rebel-500(,|%2C)honda-pcx-125)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-honda-pcx-125--honda-rebel-500"
     },
     {
       "source": "/karsilastir",
@@ -1366,10 +5608,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(honda-pcx-125(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)honda-pcx-125)$"
+          "value": "^(honda-pcx-125(,|%2C)yamaha-mt-07|yamaha-mt-07(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-pcx-125--honda-crf1100l-africa-twin"
+      "destination": "/_v/karsilastir-honda-pcx-125--yamaha-mt-07"
     },
     {
       "source": "/karsilastir",
@@ -1388,17 +5630,6 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(honda-pcx-125(,|%2C)honda-nc750x|honda-nc750x(,|%2C)honda-pcx-125)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-honda-pcx-125--honda-nc750x"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
           "value": "^(honda-pcx-125(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)honda-pcx-125)$"
         }
       ],
@@ -1410,10 +5641,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(yamaha-nmax-155(,|%2C)yamaha-xmax-300|yamaha-xmax-300(,|%2C)yamaha-nmax-155)$"
+          "value": "^(honda-pcx-125(,|%2C)motolux-rossi-rs-125|motolux-rossi-rs-125(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--yamaha-xmax-300"
+      "destination": "/_v/karsilastir-honda-pcx-125--motolux-rossi-rs-125"
     },
     {
       "source": "/karsilastir",
@@ -1421,10 +5652,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(yamaha-nmax-155(,|%2C)vespa-gts-300|vespa-gts-300(,|%2C)yamaha-nmax-155)$"
+          "value": "^(honda-pcx-125(,|%2C)yuki-hammer-50|yuki-hammer-50(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--vespa-gts-300"
+      "destination": "/_v/karsilastir-honda-pcx-125--yuki-hammer-50"
     },
     {
       "source": "/karsilastir",
@@ -1432,10 +5663,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(yamaha-nmax-155(,|%2C)honda-cb650r|honda-cb650r(,|%2C)yamaha-nmax-155)$"
+          "value": "^(honda-pcx-125(,|%2C)yuki-yk-50-spark-new|yuki-yk-50-spark-new(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--honda-cb650r"
+      "destination": "/_v/karsilastir-honda-pcx-125--yuki-yk-50-spark-new"
     },
     {
       "source": "/karsilastir",
@@ -1443,10 +5674,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(yamaha-nmax-155(,|%2C)yamaha-mt-07|yamaha-mt-07(,|%2C)yamaha-nmax-155)$"
+          "value": "^(honda-pcx-125(,|%2C)yuki-taro-gp1|yuki-taro-gp1(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--yamaha-mt-07"
+      "destination": "/_v/karsilastir-honda-pcx-125--yuki-taro-gp1"
     },
     {
       "source": "/karsilastir",
@@ -1454,10 +5685,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(yamaha-nmax-155(,|%2C)kawasaki-z650|kawasaki-z650(,|%2C)yamaha-nmax-155)$"
+          "value": "^(honda-pcx-125(,|%2C)motolux-drift-200|motolux-drift-200(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--kawasaki-z650"
+      "destination": "/_v/karsilastir-honda-pcx-125--motolux-drift-200"
     },
     {
       "source": "/karsilastir",
@@ -1465,76 +5696,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(yamaha-nmax-155(,|%2C)ktm-390-duke|ktm-390-duke(,|%2C)yamaha-nmax-155)$"
+          "value": "^(honda-pcx-125(,|%2C)yuki-victor|yuki-victor(,|%2C)honda-pcx-125)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--ktm-390-duke"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-nmax-155(,|%2C)honda-rebel-500|honda-rebel-500(,|%2C)yamaha-nmax-155)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--honda-rebel-500"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-nmax-155(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)yamaha-nmax-155)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--yamaha-tenere-700"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-nmax-155(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)yamaha-nmax-155)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--honda-crf1100l-africa-twin"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-nmax-155(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)yamaha-nmax-155)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--bmw-r-1300-gs"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-nmax-155(,|%2C)honda-nc750x|honda-nc750x(,|%2C)yamaha-nmax-155)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--honda-nc750x"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-nmax-155(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)yamaha-nmax-155)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-nmax-155--super-soco-cpx"
+      "destination": "/_v/karsilastir-honda-pcx-125--yuki-victor"
     },
     {
       "source": "/karsilastir",
@@ -1553,54 +5718,21 @@
         {
           "type": "query",
           "key": "modeller",
+          "value": "^(yamaha-xmax-300(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)yamaha-xmax-300)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-xmax-300--honda-crf1100l-africa-twin"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
           "value": "^(yamaha-xmax-300(,|%2C)honda-cb650r|honda-cb650r(,|%2C)yamaha-xmax-300)$"
         }
       ],
       "destination": "/_v/karsilastir-yamaha-xmax-300--honda-cb650r"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-xmax-300(,|%2C)yamaha-mt-07|yamaha-mt-07(,|%2C)yamaha-xmax-300)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--yamaha-mt-07"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-xmax-300(,|%2C)kawasaki-z650|kawasaki-z650(,|%2C)yamaha-xmax-300)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--kawasaki-z650"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-xmax-300(,|%2C)ktm-390-duke|ktm-390-duke(,|%2C)yamaha-xmax-300)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--ktm-390-duke"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-xmax-300(,|%2C)honda-rebel-500|honda-rebel-500(,|%2C)yamaha-xmax-300)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--honda-rebel-500"
     },
     {
       "source": "/karsilastir",
@@ -1619,10 +5751,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(yamaha-xmax-300(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)yamaha-xmax-300)$"
+          "value": "^(yamaha-xmax-300(,|%2C)yamaha-mt-07|yamaha-mt-07(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--honda-crf1100l-africa-twin"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--yamaha-mt-07"
     },
     {
       "source": "/karsilastir",
@@ -1641,17 +5773,6 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(yamaha-xmax-300(,|%2C)honda-nc750x|honda-nc750x(,|%2C)yamaha-xmax-300)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-xmax-300--honda-nc750x"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
           "value": "^(yamaha-xmax-300(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)yamaha-xmax-300)$"
         }
       ],
@@ -1663,10 +5784,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(vespa-gts-300(,|%2C)honda-cb650r|honda-cb650r(,|%2C)vespa-gts-300)$"
+          "value": "^(yamaha-xmax-300(,|%2C)motolux-rossi-rs-125|motolux-rossi-rs-125(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--honda-cb650r"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--motolux-rossi-rs-125"
     },
     {
       "source": "/karsilastir",
@@ -1674,10 +5795,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(vespa-gts-300(,|%2C)yamaha-mt-07|yamaha-mt-07(,|%2C)vespa-gts-300)$"
+          "value": "^(yamaha-xmax-300(,|%2C)yuki-hammer-50|yuki-hammer-50(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--yamaha-mt-07"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--yuki-hammer-50"
     },
     {
       "source": "/karsilastir",
@@ -1685,10 +5806,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(vespa-gts-300(,|%2C)kawasaki-z650|kawasaki-z650(,|%2C)vespa-gts-300)$"
+          "value": "^(yamaha-xmax-300(,|%2C)yuki-yk-50-spark-new|yuki-yk-50-spark-new(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--kawasaki-z650"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--yuki-yk-50-spark-new"
     },
     {
       "source": "/karsilastir",
@@ -1696,10 +5817,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(vespa-gts-300(,|%2C)ktm-390-duke|ktm-390-duke(,|%2C)vespa-gts-300)$"
+          "value": "^(yamaha-xmax-300(,|%2C)yuki-taro-gp1|yuki-taro-gp1(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--ktm-390-duke"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--yuki-taro-gp1"
     },
     {
       "source": "/karsilastir",
@@ -1707,10 +5828,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(vespa-gts-300(,|%2C)honda-rebel-500|honda-rebel-500(,|%2C)vespa-gts-300)$"
+          "value": "^(yamaha-xmax-300(,|%2C)motolux-drift-200|motolux-drift-200(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--honda-rebel-500"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--motolux-drift-200"
     },
     {
       "source": "/karsilastir",
@@ -1718,10 +5839,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(vespa-gts-300(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)vespa-gts-300)$"
+          "value": "^(yamaha-xmax-300(,|%2C)yuki-victor|yuki-victor(,|%2C)yamaha-xmax-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--yamaha-tenere-700"
+      "destination": "/_v/karsilastir-yamaha-xmax-300--yuki-victor"
     },
     {
       "source": "/karsilastir",
@@ -1740,10 +5861,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(vespa-gts-300(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)vespa-gts-300)$"
+          "value": "^(vespa-gts-300(,|%2C)honda-cb650r|honda-cb650r(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--bmw-r-1300-gs"
+      "destination": "/_v/karsilastir-vespa-gts-300--honda-cb650r"
     },
     {
       "source": "/karsilastir",
@@ -1751,10 +5872,32 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(vespa-gts-300(,|%2C)honda-nc750x|honda-nc750x(,|%2C)vespa-gts-300)$"
+          "value": "^(vespa-gts-300(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-vespa-gts-300--honda-nc750x"
+      "destination": "/_v/karsilastir-vespa-gts-300--yamaha-tenere-700"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(vespa-gts-300(,|%2C)yamaha-mt-07|yamaha-mt-07(,|%2C)vespa-gts-300)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-vespa-gts-300--yamaha-mt-07"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(vespa-gts-300(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)vespa-gts-300)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-vespa-gts-300--bmw-r-1300-gs"
     },
     {
       "source": "/karsilastir",
@@ -1773,10 +5916,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(honda-cb650r(,|%2C)yamaha-mt-07|yamaha-mt-07(,|%2C)honda-cb650r)$"
+          "value": "^(vespa-gts-300(,|%2C)motolux-rossi-rs-125|motolux-rossi-rs-125(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--yamaha-mt-07"
+      "destination": "/_v/karsilastir-vespa-gts-300--motolux-rossi-rs-125"
     },
     {
       "source": "/karsilastir",
@@ -1784,10 +5927,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(honda-cb650r(,|%2C)kawasaki-z650|kawasaki-z650(,|%2C)honda-cb650r)$"
+          "value": "^(vespa-gts-300(,|%2C)yuki-hammer-50|yuki-hammer-50(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--kawasaki-z650"
+      "destination": "/_v/karsilastir-vespa-gts-300--yuki-hammer-50"
     },
     {
       "source": "/karsilastir",
@@ -1795,10 +5938,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(honda-cb650r(,|%2C)ktm-390-duke|ktm-390-duke(,|%2C)honda-cb650r)$"
+          "value": "^(vespa-gts-300(,|%2C)yuki-yk-50-spark-new|yuki-yk-50-spark-new(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--ktm-390-duke"
+      "destination": "/_v/karsilastir-vespa-gts-300--yuki-yk-50-spark-new"
     },
     {
       "source": "/karsilastir",
@@ -1806,10 +5949,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(honda-cb650r(,|%2C)honda-rebel-500|honda-rebel-500(,|%2C)honda-cb650r)$"
+          "value": "^(vespa-gts-300(,|%2C)yuki-taro-gp1|yuki-taro-gp1(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--honda-rebel-500"
+      "destination": "/_v/karsilastir-vespa-gts-300--yuki-taro-gp1"
     },
     {
       "source": "/karsilastir",
@@ -1817,10 +5960,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(honda-cb650r(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)honda-cb650r)$"
+          "value": "^(vespa-gts-300(,|%2C)motolux-drift-200|motolux-drift-200(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--yamaha-tenere-700"
+      "destination": "/_v/karsilastir-vespa-gts-300--motolux-drift-200"
     },
     {
       "source": "/karsilastir",
@@ -1828,10 +5971,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(honda-cb650r(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)honda-cb650r)$"
+          "value": "^(vespa-gts-300(,|%2C)yuki-victor|yuki-victor(,|%2C)vespa-gts-300)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--honda-crf1100l-africa-twin"
+      "destination": "/_v/karsilastir-vespa-gts-300--yuki-victor"
     },
     {
       "source": "/karsilastir",
@@ -1839,10 +5982,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(honda-cb650r(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)honda-cb650r)$"
+          "value": "^(honda-crf1100l-africa-twin(,|%2C)honda-cb650r|honda-cb650r(,|%2C)honda-crf1100l-africa-twin)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--bmw-r-1300-gs"
+      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin--honda-cb650r"
     },
     {
       "source": "/karsilastir",
@@ -1850,10 +5993,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(honda-cb650r(,|%2C)honda-nc750x|honda-nc750x(,|%2C)honda-cb650r)$"
+          "value": "^(honda-crf1100l-africa-twin(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)honda-crf1100l-africa-twin)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--honda-nc750x"
+      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin--yamaha-tenere-700"
     },
     {
       "source": "/karsilastir",
@@ -1861,340 +6004,10 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(honda-cb650r(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)honda-cb650r)$"
+          "value": "^(honda-crf1100l-africa-twin(,|%2C)yamaha-mt-07|yamaha-mt-07(,|%2C)honda-crf1100l-africa-twin)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-cb650r--super-soco-cpx"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-mt-07(,|%2C)kawasaki-z650|kawasaki-z650(,|%2C)yamaha-mt-07)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-mt-07--kawasaki-z650"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-mt-07(,|%2C)ktm-390-duke|ktm-390-duke(,|%2C)yamaha-mt-07)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-mt-07--ktm-390-duke"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-mt-07(,|%2C)honda-rebel-500|honda-rebel-500(,|%2C)yamaha-mt-07)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-mt-07--honda-rebel-500"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-mt-07(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)yamaha-mt-07)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-mt-07--yamaha-tenere-700"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-mt-07(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)yamaha-mt-07)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-mt-07--honda-crf1100l-africa-twin"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-mt-07(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)yamaha-mt-07)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-mt-07--bmw-r-1300-gs"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-mt-07(,|%2C)honda-nc750x|honda-nc750x(,|%2C)yamaha-mt-07)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-mt-07--honda-nc750x"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-mt-07(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)yamaha-mt-07)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-mt-07--super-soco-cpx"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(kawasaki-z650(,|%2C)ktm-390-duke|ktm-390-duke(,|%2C)kawasaki-z650)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-kawasaki-z650--ktm-390-duke"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(kawasaki-z650(,|%2C)honda-rebel-500|honda-rebel-500(,|%2C)kawasaki-z650)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-kawasaki-z650--honda-rebel-500"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(kawasaki-z650(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)kawasaki-z650)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-kawasaki-z650--yamaha-tenere-700"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(kawasaki-z650(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)kawasaki-z650)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-kawasaki-z650--honda-crf1100l-africa-twin"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(kawasaki-z650(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)kawasaki-z650)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-kawasaki-z650--bmw-r-1300-gs"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(kawasaki-z650(,|%2C)honda-nc750x|honda-nc750x(,|%2C)kawasaki-z650)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-kawasaki-z650--honda-nc750x"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(kawasaki-z650(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)kawasaki-z650)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-kawasaki-z650--super-soco-cpx"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(ktm-390-duke(,|%2C)honda-rebel-500|honda-rebel-500(,|%2C)ktm-390-duke)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-ktm-390-duke--honda-rebel-500"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(ktm-390-duke(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)ktm-390-duke)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-ktm-390-duke--yamaha-tenere-700"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(ktm-390-duke(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)ktm-390-duke)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-ktm-390-duke--honda-crf1100l-africa-twin"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(ktm-390-duke(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)ktm-390-duke)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-ktm-390-duke--bmw-r-1300-gs"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(ktm-390-duke(,|%2C)honda-nc750x|honda-nc750x(,|%2C)ktm-390-duke)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-ktm-390-duke--honda-nc750x"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(ktm-390-duke(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)ktm-390-duke)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-ktm-390-duke--super-soco-cpx"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(honda-rebel-500(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)honda-rebel-500)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-honda-rebel-500--yamaha-tenere-700"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(honda-rebel-500(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)honda-rebel-500)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-honda-rebel-500--honda-crf1100l-africa-twin"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(honda-rebel-500(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)honda-rebel-500)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-honda-rebel-500--bmw-r-1300-gs"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(honda-rebel-500(,|%2C)honda-nc750x|honda-nc750x(,|%2C)honda-rebel-500)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-honda-rebel-500--honda-nc750x"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(honda-rebel-500(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)honda-rebel-500)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-honda-rebel-500--super-soco-cpx"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-tenere-700(,|%2C)honda-crf1100l-africa-twin|honda-crf1100l-africa-twin(,|%2C)yamaha-tenere-700)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-tenere-700--honda-crf1100l-africa-twin"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-tenere-700(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)yamaha-tenere-700)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-tenere-700--bmw-r-1300-gs"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-tenere-700(,|%2C)honda-nc750x|honda-nc750x(,|%2C)yamaha-tenere-700)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-tenere-700--honda-nc750x"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
-          "value": "^(yamaha-tenere-700(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)yamaha-tenere-700)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-yamaha-tenere-700--super-soco-cpx"
+      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin--yamaha-mt-07"
     },
     {
       "source": "/karsilastir",
@@ -2213,17 +6026,6 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(honda-crf1100l-africa-twin(,|%2C)honda-nc750x|honda-nc750x(,|%2C)honda-crf1100l-africa-twin)$"
-        }
-      ],
-      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin--honda-nc750x"
-    },
-    {
-      "source": "/karsilastir",
-      "has": [
-        {
-          "type": "query",
-          "key": "modeller",
           "value": "^(honda-crf1100l-africa-twin(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)honda-crf1100l-africa-twin)$"
         }
       ],
@@ -2235,10 +6037,362 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(bmw-r-1300-gs(,|%2C)honda-nc750x|honda-nc750x(,|%2C)bmw-r-1300-gs)$"
+          "value": "^(honda-crf1100l-africa-twin(,|%2C)motolux-rossi-rs-125|motolux-rossi-rs-125(,|%2C)honda-crf1100l-africa-twin)$"
         }
       ],
-      "destination": "/_v/karsilastir-bmw-r-1300-gs--honda-nc750x"
+      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin--motolux-rossi-rs-125"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(honda-crf1100l-africa-twin(,|%2C)yuki-hammer-50|yuki-hammer-50(,|%2C)honda-crf1100l-africa-twin)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin--yuki-hammer-50"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(honda-crf1100l-africa-twin(,|%2C)yuki-yk-50-spark-new|yuki-yk-50-spark-new(,|%2C)honda-crf1100l-africa-twin)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin--yuki-yk-50-spark-new"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(honda-crf1100l-africa-twin(,|%2C)yuki-taro-gp1|yuki-taro-gp1(,|%2C)honda-crf1100l-africa-twin)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin--yuki-taro-gp1"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(honda-crf1100l-africa-twin(,|%2C)motolux-drift-200|motolux-drift-200(,|%2C)honda-crf1100l-africa-twin)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin--motolux-drift-200"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(honda-crf1100l-africa-twin(,|%2C)yuki-victor|yuki-victor(,|%2C)honda-crf1100l-africa-twin)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-crf1100l-africa-twin--yuki-victor"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(honda-cb650r(,|%2C)yamaha-tenere-700|yamaha-tenere-700(,|%2C)honda-cb650r)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-cb650r--yamaha-tenere-700"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(honda-cb650r(,|%2C)yamaha-mt-07|yamaha-mt-07(,|%2C)honda-cb650r)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-cb650r--yamaha-mt-07"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(honda-cb650r(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)honda-cb650r)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-cb650r--bmw-r-1300-gs"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(honda-cb650r(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)honda-cb650r)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-cb650r--super-soco-cpx"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(honda-cb650r(,|%2C)motolux-rossi-rs-125|motolux-rossi-rs-125(,|%2C)honda-cb650r)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-cb650r--motolux-rossi-rs-125"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(honda-cb650r(,|%2C)yuki-hammer-50|yuki-hammer-50(,|%2C)honda-cb650r)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-cb650r--yuki-hammer-50"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(honda-cb650r(,|%2C)yuki-yk-50-spark-new|yuki-yk-50-spark-new(,|%2C)honda-cb650r)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-cb650r--yuki-yk-50-spark-new"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(honda-cb650r(,|%2C)yuki-taro-gp1|yuki-taro-gp1(,|%2C)honda-cb650r)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-cb650r--yuki-taro-gp1"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(honda-cb650r(,|%2C)motolux-drift-200|motolux-drift-200(,|%2C)honda-cb650r)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-cb650r--motolux-drift-200"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(honda-cb650r(,|%2C)yuki-victor|yuki-victor(,|%2C)honda-cb650r)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-honda-cb650r--yuki-victor"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-tenere-700(,|%2C)yamaha-mt-07|yamaha-mt-07(,|%2C)yamaha-tenere-700)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-tenere-700--yamaha-mt-07"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-tenere-700(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)yamaha-tenere-700)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-tenere-700--bmw-r-1300-gs"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-tenere-700(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)yamaha-tenere-700)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-tenere-700--super-soco-cpx"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-tenere-700(,|%2C)motolux-rossi-rs-125|motolux-rossi-rs-125(,|%2C)yamaha-tenere-700)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-tenere-700--motolux-rossi-rs-125"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-tenere-700(,|%2C)yuki-hammer-50|yuki-hammer-50(,|%2C)yamaha-tenere-700)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-tenere-700--yuki-hammer-50"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-tenere-700(,|%2C)yuki-yk-50-spark-new|yuki-yk-50-spark-new(,|%2C)yamaha-tenere-700)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-tenere-700--yuki-yk-50-spark-new"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-tenere-700(,|%2C)yuki-taro-gp1|yuki-taro-gp1(,|%2C)yamaha-tenere-700)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-tenere-700--yuki-taro-gp1"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-tenere-700(,|%2C)motolux-drift-200|motolux-drift-200(,|%2C)yamaha-tenere-700)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-tenere-700--motolux-drift-200"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-tenere-700(,|%2C)yuki-victor|yuki-victor(,|%2C)yamaha-tenere-700)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-tenere-700--yuki-victor"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-mt-07(,|%2C)bmw-r-1300-gs|bmw-r-1300-gs(,|%2C)yamaha-mt-07)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-mt-07--bmw-r-1300-gs"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-mt-07(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)yamaha-mt-07)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-mt-07--super-soco-cpx"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-mt-07(,|%2C)motolux-rossi-rs-125|motolux-rossi-rs-125(,|%2C)yamaha-mt-07)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-mt-07--motolux-rossi-rs-125"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-mt-07(,|%2C)yuki-hammer-50|yuki-hammer-50(,|%2C)yamaha-mt-07)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-mt-07--yuki-hammer-50"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-mt-07(,|%2C)yuki-yk-50-spark-new|yuki-yk-50-spark-new(,|%2C)yamaha-mt-07)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-mt-07--yuki-yk-50-spark-new"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-mt-07(,|%2C)yuki-taro-gp1|yuki-taro-gp1(,|%2C)yamaha-mt-07)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-mt-07--yuki-taro-gp1"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-mt-07(,|%2C)motolux-drift-200|motolux-drift-200(,|%2C)yamaha-mt-07)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-mt-07--motolux-drift-200"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yamaha-mt-07(,|%2C)yuki-victor|yuki-victor(,|%2C)yamaha-mt-07)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yamaha-mt-07--yuki-victor"
     },
     {
       "source": "/karsilastir",
@@ -2257,10 +6411,296 @@
         {
           "type": "query",
           "key": "modeller",
-          "value": "^(honda-nc750x(,|%2C)super-soco-cpx|super-soco-cpx(,|%2C)honda-nc750x)$"
+          "value": "^(bmw-r-1300-gs(,|%2C)motolux-rossi-rs-125|motolux-rossi-rs-125(,|%2C)bmw-r-1300-gs)$"
         }
       ],
-      "destination": "/_v/karsilastir-honda-nc750x--super-soco-cpx"
+      "destination": "/_v/karsilastir-bmw-r-1300-gs--motolux-rossi-rs-125"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(bmw-r-1300-gs(,|%2C)yuki-hammer-50|yuki-hammer-50(,|%2C)bmw-r-1300-gs)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-bmw-r-1300-gs--yuki-hammer-50"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(bmw-r-1300-gs(,|%2C)yuki-yk-50-spark-new|yuki-yk-50-spark-new(,|%2C)bmw-r-1300-gs)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-bmw-r-1300-gs--yuki-yk-50-spark-new"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(bmw-r-1300-gs(,|%2C)yuki-taro-gp1|yuki-taro-gp1(,|%2C)bmw-r-1300-gs)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-bmw-r-1300-gs--yuki-taro-gp1"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(bmw-r-1300-gs(,|%2C)motolux-drift-200|motolux-drift-200(,|%2C)bmw-r-1300-gs)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-bmw-r-1300-gs--motolux-drift-200"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(bmw-r-1300-gs(,|%2C)yuki-victor|yuki-victor(,|%2C)bmw-r-1300-gs)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-bmw-r-1300-gs--yuki-victor"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(super-soco-cpx(,|%2C)motolux-rossi-rs-125|motolux-rossi-rs-125(,|%2C)super-soco-cpx)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-super-soco-cpx--motolux-rossi-rs-125"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(super-soco-cpx(,|%2C)yuki-hammer-50|yuki-hammer-50(,|%2C)super-soco-cpx)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-super-soco-cpx--yuki-hammer-50"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(super-soco-cpx(,|%2C)yuki-yk-50-spark-new|yuki-yk-50-spark-new(,|%2C)super-soco-cpx)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-super-soco-cpx--yuki-yk-50-spark-new"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(super-soco-cpx(,|%2C)yuki-taro-gp1|yuki-taro-gp1(,|%2C)super-soco-cpx)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-super-soco-cpx--yuki-taro-gp1"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(super-soco-cpx(,|%2C)motolux-drift-200|motolux-drift-200(,|%2C)super-soco-cpx)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-super-soco-cpx--motolux-drift-200"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(super-soco-cpx(,|%2C)yuki-victor|yuki-victor(,|%2C)super-soco-cpx)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-super-soco-cpx--yuki-victor"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(motolux-rossi-rs-125(,|%2C)yuki-hammer-50|yuki-hammer-50(,|%2C)motolux-rossi-rs-125)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-rossi-rs-125--yuki-hammer-50"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(motolux-rossi-rs-125(,|%2C)yuki-yk-50-spark-new|yuki-yk-50-spark-new(,|%2C)motolux-rossi-rs-125)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-rossi-rs-125--yuki-yk-50-spark-new"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(motolux-rossi-rs-125(,|%2C)yuki-taro-gp1|yuki-taro-gp1(,|%2C)motolux-rossi-rs-125)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-rossi-rs-125--yuki-taro-gp1"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(motolux-rossi-rs-125(,|%2C)motolux-drift-200|motolux-drift-200(,|%2C)motolux-rossi-rs-125)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-rossi-rs-125--motolux-drift-200"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(motolux-rossi-rs-125(,|%2C)yuki-victor|yuki-victor(,|%2C)motolux-rossi-rs-125)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-rossi-rs-125--yuki-victor"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yuki-hammer-50(,|%2C)yuki-yk-50-spark-new|yuki-yk-50-spark-new(,|%2C)yuki-hammer-50)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-hammer-50--yuki-yk-50-spark-new"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yuki-hammer-50(,|%2C)yuki-taro-gp1|yuki-taro-gp1(,|%2C)yuki-hammer-50)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-hammer-50--yuki-taro-gp1"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yuki-hammer-50(,|%2C)motolux-drift-200|motolux-drift-200(,|%2C)yuki-hammer-50)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-hammer-50--motolux-drift-200"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yuki-hammer-50(,|%2C)yuki-victor|yuki-victor(,|%2C)yuki-hammer-50)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-hammer-50--yuki-victor"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yuki-yk-50-spark-new(,|%2C)yuki-taro-gp1|yuki-taro-gp1(,|%2C)yuki-yk-50-spark-new)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-50-spark-new--yuki-taro-gp1"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yuki-yk-50-spark-new(,|%2C)motolux-drift-200|motolux-drift-200(,|%2C)yuki-yk-50-spark-new)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-50-spark-new--motolux-drift-200"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yuki-yk-50-spark-new(,|%2C)yuki-victor|yuki-victor(,|%2C)yuki-yk-50-spark-new)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-yk-50-spark-new--yuki-victor"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yuki-taro-gp1(,|%2C)motolux-drift-200|motolux-drift-200(,|%2C)yuki-taro-gp1)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-taro-gp1--motolux-drift-200"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(yuki-taro-gp1(,|%2C)yuki-victor|yuki-victor(,|%2C)yuki-taro-gp1)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-yuki-taro-gp1--yuki-victor"
+    },
+    {
+      "source": "/karsilastir",
+      "has": [
+        {
+          "type": "query",
+          "key": "modeller",
+          "value": "^(motolux-drift-200(,|%2C)yuki-victor|yuki-victor(,|%2C)motolux-drift-200)$"
+        }
+      ],
+      "destination": "/_v/karsilastir-motolux-drift-200--yuki-victor"
     },
     {
       "source": "/motosikletler",

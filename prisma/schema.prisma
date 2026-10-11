@@ -336,7 +336,7 @@ model RateLimit {
 
 model SiteSettings {
   id              Int     @id @default(1)
-  businessName    String  @default("Öztunç Motor")
+  businessName    String  @default("Öztunc Motor")
   addressLine     String  @default("Cedidiye Mahallesi, Mimar Sinan Caddesi No:75")
   postalCode      String  @default("81020")
   district        String  @default("Merkez")
@@ -357,7 +357,7 @@ model SiteSettings {
   aboutImage1Id  String?
   aboutImage2Id  String?
 
-  heroTitle       String @default("Yolun başı.\nÖztunç Motor.")
+  heroTitle       String @default("Yolun başı.\nÖztunc Motor.")
   heroText        String @default("Düzce’de motosiklet satış ve servis hizmetlerini tek noktada keşfedin.")
   heroLocation    String @default("Cedidiye, Düzce")
   serviceTitle    String @default("Motoruna iyi bak.\nYola güvenle devam et.")

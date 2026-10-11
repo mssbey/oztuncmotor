@@ -60,6 +60,48 @@ export const Wrench = (p: P) => (
 export const Bike = (p: P) => (
   <svg {...base(p)}><circle cx="5.5" cy="16.5" r="3.5" /><circle cx="18.5" cy="16.5" r="3.5" /><path d="M5.5 16.5 9 10h5l4.5 6.5M14 10l-2-4h-2M15 6h3l1 3" /></svg>
 );
+export const Gear = (p: P) => (
+  <svg {...base(p)}><circle cx="12" cy="12" r="3" /><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1" /><circle cx="12" cy="12" r="6.5" /></svg>
+);
+export const Helmet = (p: P) => (
+  <svg {...base(p)}><path d="M3 15.5a9 9 0 0 1 18-1V18a1 1 0 0 1-1 1H8.5A5.5 5.5 0 0 1 3 15.5z" /><path d="M12 9.5h8.6M12 9.5V14h8.9" /></svg>
+);
+export const Drop = (p: P) => (
+  <svg {...base(p)}><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z" /><path d="M9.5 14.5a2.5 2.5 0 0 0 2.5 2.5" /></svg>
+);
+export const Disc = (p: P) => (
+  <svg {...base(p)}><circle cx="12" cy="12" r="9" /><circle cx="12" cy="12" r="2.5" /><path d="M12 5.5v.01M18.5 12h-.01M12 18.5v.01M5.5 12h.01M16.6 7.4h-.01M16.6 16.6h-.01M7.4 16.6h.01M7.4 7.4h.01" /></svg>
+);
+export const Chain = (p: P) => (
+  <svg {...base(p)}><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1" /><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1" /></svg>
+);
+export const Bolt = (p: P) => (
+  <svg {...base(p)}><path d="M13 2 4 14h7l-1 8 9-12h-7z" /></svg>
+);
+export const Battery = (p: P) => (
+  <svg {...base(p)}><rect x="2.5" y="7" width="17" height="10" rx="2" /><path d="M21.5 10.5v3M7 12h4M9 10v4" /></svg>
+);
+export const Shield = (p: P) => (
+  <svg {...base(p)}><path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.3 7.5 9.5 4.3-1.2 7.5-4.9 7.5-9.5V6z" /><path d="m9 12 2 2 4-4" /></svg>
+);
+export const Bag = (p: P) => (
+  <svg {...base(p)}><rect x="3.5" y="7.5" width="17" height="12.5" rx="2" /><path d="M8.5 7.5V6a3.5 3.5 0 0 1 7 0v1.5M3.5 12.5h17" /></svg>
+);
+export const Lock = (p: P) => (
+  <svg {...base(p)}><rect x="4.5" y="10.5" width="15" height="10" rx="2" /><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3M12 14.5v2.5" /></svg>
+);
+export const Jacket = (p: P) => (
+  <svg {...base(p)}><path d="M9 3.5h6l1.5 2L20 7.5V20h-4v-6.5M9 3.5 7.5 5.5 4 7.5V20h4v-6.5M9 3.5l3 4 3-4M12 7.5V20M8 13.5h8" /></svg>
+);
+export const Device = (p: P) => (
+  <svg {...base(p)}><rect x="6.5" y="2.5" width="11" height="19" rx="2.5" /><path d="M10.5 18.5h3" /></svg>
+);
+export const Eye = (p: P) => (
+  <svg {...base(p)}><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z" /><circle cx="12" cy="12" r="3" /></svg>
+);
+export const Chat = (p: P) => (
+  <svg {...base(p)}><path d="M20.5 12a8 8 0 0 1-11.6 7.2L3.5 20.5l1.3-4.9A8 8 0 1 1 20.5 12z" /><path d="M8.5 11h7M8.5 14h4" /></svg>
+);
 export const Search = (p: P) => (
   <svg {...base(p)}><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></svg>
 );

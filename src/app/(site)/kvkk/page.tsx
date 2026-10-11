@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = buildMetadata({
   title: "KVKK Aydınlatma Metni",
-  description: "6698 sayılı KVKK kapsamında Öztunç Motor web sitesi formlarında işlenen kişisel veriler hakkında aydınlatma metni.",
+  description: "6698 sayılı KVKK kapsamında Öztunc Motor web sitesi formlarında işlenen kişisel veriler hakkında aydınlatma metni.",
   path: "/kvkk",
 });
 
